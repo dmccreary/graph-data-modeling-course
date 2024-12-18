@@ -2,13 +2,31 @@
 
 ## Challenges of Modeling Space
 
-### Modeling Locations
+## Modeling Locations
 
-#### Longitude and Latitude
+### Longitude and Latitude
 
-### Modeling Addresses
+### Distance Calculations
 
-### Modeling Roads
+## Modeling Addresses
 
-## A Simple Geospacial Model
+## Modeling Cities, Counties and States
+
+## Modeling Metropolitan Regions
+
+### Modeling Sale Regions
+
+## Modeling Urban and Rural Regions
+
+### Case Study: Social Determinants of Health
+
+## Modeling Roads
+
+### Calculating the Shortest Path
+
+### Modeling Bus Routes
+
+## Modeling Distances from Providers
+
+## A Sample Geospacial Model
 

@@ -1,4 +1,4 @@
-# Modeling Concepts
+# Chapter 7: Modeling Concepts
 
 ## Knowledge Graphs
 
@@ -13,6 +13,10 @@
 ## The Concept Node
 
 ## Labels
+
+### Preferred Labels
+
+### Alternate Labels
 
 ## Broader and Narrower Concepts
 

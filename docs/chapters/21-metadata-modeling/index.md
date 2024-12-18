@@ -1,4 +1,4 @@
-# Modeling Metadata
+# Chapter 21: Modeling Metadata
 
 ## What is Metadata?
 

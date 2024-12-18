@@ -9,7 +9,7 @@ edit_uri: 'blob/master/docs'
 nav:
   - Home: index.md
   - About: about.md
-  - CHapters:
+  - Chapters:
     - Table of Contents: chapters/index.md
     - chapters/01-introduction/index.md
     - chapters/02-concepts/index.md
@@ -34,6 +34,9 @@ nav:
     - chapters/21-metadata-modeling/index.md
     - chapters/22-model-evolution/index.md
     - chapters/25-reference-frames/index.md
+  - Sims:
+    - List of Sims: sims/index.md
+    - Learning Graph: sims/learning-graph/index.md
   - Glossary: glossary.md
   - license.md
   - How We Built This Site: how-we-built-this-site.md

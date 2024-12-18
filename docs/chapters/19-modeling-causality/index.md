@@ -1,4 +1,6 @@
-# Modeling Causality
+# Chapter 19: Modeling Causality
+
+## Correlation vs. Causation
 
 ## Causal Graphs
 

@@ -1,4 +1,4 @@
-# Chapter 22: Bitemporal Modeling
+# Chapter 23: Bitemporal Modeling
 
 ## What is a Bitemporal Graph
 

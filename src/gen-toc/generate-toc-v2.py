@@ -23,10 +23,10 @@ def add_markdown_header_level(chapter_content):
     """
     updated_lines = []
     for line in chapter_content.splitlines():
-        if line.startswith("# ") or line.startswith("## "):
+        if line.startswith("#"):
             updated_lines.append("#" + line)  # Add one level to markdown headers
-        # else:
-            # updated_lines.append(line)
+        else:
+            updated_lines.append(line)
     return "\n".join(updated_lines)
 
 # Example usage

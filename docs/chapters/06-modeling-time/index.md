@@ -1,4 +1,4 @@
-# Modeling Time
+# Chapter 6: Modeling Time
 
 ## The DateTime Structure
 
