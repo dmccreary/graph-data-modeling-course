@@ -1,0 +1,955 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An undergraduate college-level course on graph data modeling. All content licensed Creative Commons ShareAlike Attribution Noncommercial">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/graph-data-modeling-course/prompts/04-taxonomy/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.45">
+    
+    
+      
+        <title>Concept Taxonomy - Graph Data Modeling</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#concept-taxonomy" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Graph Data Modeling" class="md-header__button md-logo" aria-label="Graph Data Modeling" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Graph Data Modeling
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Concept Taxonomy
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/graph-data-modeling-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Graph Data Modeling" class="md-nav__button md-logo" aria-label="Graph Data Modeling" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Graph Data Modeling
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/graph-data-modeling-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Sims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creative Commons License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-we-built-this-site/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How We Built This Site
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#response" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-taxonomy-labels-definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Taxonomy (Labels &amp; Definitions)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/graph-data-modeling-course/blob/master/docs/prompts/04-taxonomy.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="concept-taxonomy">Concept Taxonomy</h1>
+<h2 id="prompt">Prompt</h2>
+<div class="admonition prompt">
+<p class="admonition-title">Prompt</p>
+<p>Now lets focus again on the 150 concepts you have generated.
+Your task is to organize these concepts into a small taxonomy
+of approximately ten classifiers.  You will generate a list
+of the classifier labels.</p>
+<p>Here are some suggestions.  The first category is "Foundational Concepts".
+These are concepts that are introduced at the start of the course
+and are considered prerequisites.
+A second category is "Concept Definitions" where we introduce new terms.
+One category might be "Domain Specific Models"
+A last category can be "Miscellaneous".
+Your task is to create the rest of the classifiers and give each classifier a label and definition.
+Each category should include concepts that share similar characteristics, functions, or applications.
+Attempt to create a taxonomy that will evenly divide the 150 concepts into a somewhat balanced taxonomy.</p>
+</div>
+<h2 id="response">Response</h2>
+<p>Below is an example taxonomy of ten classifiers, each with a label and a definition. The 150 concepts are divided as evenly as possible across these ten categories. In practice, some concepts could potentially fit in multiple categories, but here they are assigned to only one for clarity.</p>
+<p><strong>1. Foundational Concepts</strong>
+<strong>Definition:</strong> Core principles and fundamental notions that establish the groundwork of graph data modeling. These concepts introduce basic elements like nodes, edges, and properties, as well as fundamental distinctions between data, information, and knowledge.
+<strong>Concepts (15):</strong>
+(1) Graph Data Model
+(2) Node
+(3) Edge
+(4) Property
+(5) Path
+(10) Data vs Info
+(11) Knowledge vs Data
+(12) Model vs Algorithm
+(14) Graph Futures
+(15) Modeling Basics
+(16) Directed Graphs
+(17) Undirected Graphs
+(18) Weighted Edges
+(19) Unweighted Edges
+(20) Multiplicity</p>
+<p><strong>2. Graph Structures and Operations</strong>
+<strong>Definition:</strong> Techniques and features that define, query, manipulate, and maintain the structural integrity of graph data. These concepts cover schemas, indexing, constraints, traversals, and normalization.
+<strong>Concepts (15):</strong>
+(6) Dependency
+(7) Graph Schema
+(8) Graph Query Lang
+(9) ISO GQL
+(21) Indexing in Graphs
+(22) Graph Traversal
+(23) Pattern Matching
+(24) Graph Merging
+(25) Graph Splitting
+(26) Graph Updates
+(27) Graph Integrity
+(28) Graph Constraints
+(29) Graph Normalization
+(30) Graph Aggregation
+(31) Schema Evolution</p>
+<p><strong>3. Data Management and Evolution</strong>
+<strong>Definition:</strong> Concepts related to the life cycle of graph data, including importing, exporting, versioning, and handling complex or specialized graph structures such as hierarchical nodes, hyperedges, and multi-graphs.
+<strong>Concepts (15):</strong>
+(32) Graph Versioning
+(33) Graph Data Import
+(34) Graph Data Export
+(35) Hierarchical Nodes
+(36) Hyperedges
+(37) Multi-Graphs
+(38) Loops and Cycles
+(39) Graph Isomorphism
+(40) Graph Sampling
+(121) Building Models
+(141) Learning Graphs
+(149) Data Lineage
+(150) Graph Storytelling
+(80) Time Granularity
+(79) Future Projections</p>
+<p><strong>4. Temporal and Spatial Modeling</strong>
+<strong>Definition:</strong> Modeling concepts focused on representing and analyzing data that changes over time or varies across geographic locations. This category includes time trees, geospatial models, and related structures.
+<strong>Concepts (15):</strong>
+(61) Location Node
+(62) Address Node
+(63) City Graph
+(64) County Graph
+(65) State Graph
+(66) Metro Region
+(67) Urban vs Rural
+(68) Road Network
+(69) Distance Calc
+(70) Geo-Spatial Model
+(71) Datetime Node
+(72) Time Tree
+(73) Financial Time
+(74) Temporal Exceptions
+(75) Temporal Indexes</p>
+<p><strong>5. Semantic and Knowledge-Based Modeling</strong>
+<strong>Definition:</strong> Advanced concepts that introduce semantics, knowledge layers, ontologies, and reasoning into graph models. This includes knowledge graphs, SKOS, concept nodes, and semantic reasoning frameworks.
+<strong>Concepts (15):</strong>
+(81) Knowledge Graph
+(82) SKOS Concepts
+(83) Concept Node
+(84) Labels &amp; Notation
+(85) Broader Concepts
+(86) Narrower Concepts
+(87) Concept Schemas
+(88) Semantic Layers
+(89) Concept Hierarchies
+(90) Semantic Reasoning
+(142) Concept Dependency
+(143) Content Models
+(144) Learning Paths
+(145) Concept Recommender
+(146) Intelligent Textbooks</p>
+<p><strong>6. Textual and Language Modeling</strong>
+<strong>Definition:</strong> Concepts that incorporate natural language processing, textual representations, embeddings, and document structures into graph data models, enabling language-based analytics and understanding.
+<strong>Concepts (15):</strong>
+(13) LLM Integration
+(91) NLP Integration
+(92) Word Node
+(93) Sentence Node
+(94) Paragraph Node
+(95) Document Node
+(96) Doc Pipelines
+(97) Text Classification
+(98) Embeddings
+(99) WordNet Case
+(100) Text Summarization
+(135) Data Mining
+(45) License Modeling (associated with text-based metadata)
+(84) Labels &amp; Notation (already used in semantic, replace it)
+Replace (84) with another textual concept not yet used. "Labels &amp; Notation" was already used in semantic.</p>
+<p>Instead, add (116) Similar Attribute (as text analysis often involves similarity metrics): (116) Similar Attribute
+(117) Similarity Metrics</p>
+<p><strong>Revised Textual and Language Modeling list (15):</strong>
+(13) LLM Integration
+(91) NLP Integration
+(92) Word Node
+(93) Sentence Node
+(94) Paragraph Node
+(95) Document Node
+(96) Doc Pipelines
+(97) Text Classification
+(98) Embeddings
+(99) WordNet Case
+(100) Text Summarization
+(135) Data Mining
+(116) Similar Attribute
+(117) Similarity Metrics
+(45) License Modeling (assuming textual licenses and metadata)</p>
+<p><strong>7. Customer and Fraud Modeling</strong>
+<strong>Definition:</strong> Domain-specific concepts related to representing customers, detecting fraud, and modeling behaviors, segments, and suspicious entities.
+<strong>Concepts (15):</strong>
+(41) Customer Node
+(42) Individual Customer
+(43) Corporate Customer
+(44) Organizational Roles
+(46) Abuse Detection
+(47) Fraud Indicators
+(48) Customer Churn
+(49) Customer Segments
+(50) Customer Profiles
+(101) Fraud Patterns
+(102) AML Modeling
+(103) Unusual Relations
+(104) Investigation Paths
+(105) Suspicious Entities
+(119) Merge Rules (used to integrate duplicate customer records)</p>
+<p><strong>8. Product and Supply Chain Modeling</strong>
+<strong>Definition:</strong> Domain-specific concepts focusing on product data, taxonomies, classifications, and related supply chain structures.
+<strong>Concepts (15):</strong>
+(51) Product Node
+(52) Product Listing
+(53) Product Group
+(54) Taxonomy Node
+(55) Multi-Taxonomy
+(56) Product Classification
+(57) Product Metadata
+(58) SKU Linking
+(59) Catalog Graph
+(60) Product Bundles
+(122) Manufacturing Graph
+(123) Supply Chain Node
+(118) Duplicate Detection (for product data matching)
+(120) Identity Graph (for tracking product identities)
+(143) Content Models was used in semantic, need another not used before.
+Replace (143) with (146) Intelligent Textbooks was used, need another concept.</p>
+<p>Check unused concepts that fit product/supply chain:
+Try (109) Person Roles was used? Yes in Customer category.
+(121) Building Models used in category 3.
+(106) Threat Modeling fits better in security.</p>
+<p>Try (135) Data Mining was used in textual.
+(136) Rule Exchange - more business rules.
+(137) Code Graphs - not product related. (124) Scene Graph - unrelated. (125) Pixel Classes - scene. (126) Motion Prediction - scene. (127) Autonomous Vehicles - scene. (128) Robotics Integration - scene. (129) Process Graphs - general business. (130) Workflow Events - business. (131) Rule Engine - business rules. (132) Rule Workflow - business. (133) Decision Tree - business rules. (134) Validation Rules - business rules. (136) Rule Exchange - business rules. (138) Call Graph - code (139) Coverage Graph - code (140) Code Quality - code (141) Learning Graphs used in category 3. (142) Concept Dependency used in semantic. (144) Learning Paths used in semantic. (145) Concept Recommender used in semantic. (146) Intelligent Textbooks used in semantic. (147) Correlation vs Cause - advanced analytics (148) Causal Graph - advanced analytics</p>
+<p>Let's pick a concept that can loosely relate to product/supply chain (e.g., (125) Pixel Classes doesn't fit): We must pick something not assigned yet: (106) Threat Modeling is closer to security than product. (107) Vulnerability Node - security. (108) Threat Prioritization - security. (109) Person Roles - used in customer. (110) Data Movement Anomaly - security. (111) Patient Node - healthcare. (112) Disease Spread - healthcare. (113) Healthcare Costs - healthcare. (114) Value-Based Care - healthcare. (115) Entity Resolution - foundational data matching (not used yet). Yes, Entity Resolution (115) can help in product duplicates and supply chain relationships.</p>
+<p>Final Product and Supply Chain list: (51,52,53,54,55,56,57,58,59,60,122,123,118,120,115)</p>
+<p><strong>9. Healthcare and Security Modeling</strong>
+<strong>Definition:</strong> Domain-specific modeling for healthcare data, disease spread, value-based care, as well as security threats, vulnerabilities, and suspicious data movements.
+<strong>Concepts (15):</strong>
+(106) Threat Modeling
+(107) Vulnerability Node
+(108) Threat Prioritization
+(109) Person Roles
+(110) Data Movement Anomaly
+(111) Patient Node
+(112) Disease Spread
+(113) Healthcare Costs
+(114) Value-Based Care
+(124) Scene Graph (not really healthcare or security, need a better fit - move Scene Graph to next category)
+Replace 124 with (129) Process Graphs (generic but can apply to healthcare processes)
+(129) Process Graphs
+(130) Workflow Events (could apply to healthcare or security workflows)
+(131) Rule Engine (rules for compliance or security policies)
+(132) Rule Workflow
+(133) Decision Tree (used in healthcare decision-making and security diagnostics)</p>
+<p><strong>10. Scenes, Robotics, Causality, and Advanced Analytics</strong> (Miscellaneous Advanced Topics)
+<strong>Definition:</strong> Advanced modeling areas including scene understanding, robotics, autonomous vehicles, causal inference, lineage, and various specialized analytical tools that extend beyond basic domain models.
+<strong>Concepts (15):</strong>
+(124) Scene Graph
+(125) Pixel Classes
+(126) Motion Prediction
+(127) Autonomous Vehicles
+(128) Robotics Integration
+(134) Validation Rules
+(136) Rule Exchange
+(137) Code Graphs
+(138) Call Graph
+(139) Coverage Graph
+(140) Code Quality
+(147) Correlation vs Cause
+(148) Causal Graph
+(74) Temporal Exceptions (moved from temporal, we had too many there; treat as advanced)
+(76) Temporal Queries (also advanced queries)</p>
+<hr />
+<h2 id="final-taxonomy-labels-definitions">Final Taxonomy (Labels &amp; Definitions)</h2>
+<ol>
+<li>
+<p><strong>Foundational Concepts</strong>
+    <em>Core principles and basic graph elements, introducing the distinction between data, information, and knowledge.</em></p>
+</li>
+<li>
+<p><strong>Graph Structures and Operations</strong>
+    <em>Structural tools and methods for defining, querying, and maintaining graph data integrity and schemas.</em></p>
+</li>
+<li>
+<p><strong>Data Management and Evolution</strong>
+    <em>Concepts dealing with the graph data lifecycle, including importing, exporting, versioning, and managing complex structures.</em></p>
+</li>
+<li>
+<p><strong>Temporal and Spatial Modeling</strong>
+    <em>Techniques for representing and analyzing geographically and temporally varying data in graphs.</em></p>
+</li>
+<li>
+<p><strong>Semantic and Knowledge-Based Modeling</strong>
+    <em>Advanced concepts embedding semantics, ontologies, and reasoning into the graph ecosystem.</em></p>
+</li>
+<li>
+<p><strong>Textual and Language Modeling</strong>
+    <em>Integrating NLP and textual data representations with graph structures for deeper language-based insights.</em></p>
+</li>
+<li>
+<p><strong>Customer and Fraud Modeling</strong>
+    <em>Domain-specific methods for modeling customer entities, detecting fraud, and understanding customer behavior.</em></p>
+</li>
+<li>
+<p><strong>Product and Supply Chain Modeling</strong>
+    <em>Representing products, classifications, and supply chain entities in graphs to manage inventories, taxonomies, and product data.</em></p>
+</li>
+<li>
+<p><strong>Healthcare and Security Modeling</strong>
+    <em>Domain-focused modeling for healthcare data and security threats, including vulnerabilities, suspicious activities, and clinical processes.</em></p>
+</li>
+<li>
+<p><strong>Scenes, Robotics, Causality, and Advanced Analytics (Miscellaneous)</strong>
+    <em>Specialized and emerging areas that extend graph modeling into scenes, robotics, causal inference, code analysis, and advanced analytical frameworks.</em></p>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

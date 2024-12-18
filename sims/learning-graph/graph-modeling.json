@@ -1,0 +1,1492 @@
+{
+    "nodes": [
+        {
+            "id": 1,
+            "label": "Graph Data Model",
+            "group": "found"
+        },
+        {
+            "id": 2,
+            "label": "Node",
+            "group": "found"
+        },
+        {
+            "id": 3,
+            "label": "Edge",
+            "group": "found"
+        },
+        {
+            "id": 4,
+            "label": "Property",
+            "group": "found"
+        },
+        {
+            "id": 5,
+            "label": "Path",
+            "group": "found"
+        },
+        {
+            "id": 10,
+            "label": "Data vs Information",
+            "group": 2
+        },
+        {
+            "id": 11,
+            "label": "Knowledge vs Data",
+            "group": 2
+        },
+        {
+            "id": 12,
+            "label": "Model vs Algorithm",
+            "group": 2
+        },
+        {
+            "id": 14,
+            "label": "Graph Futures",
+            "group": "goal"
+        },
+        {
+            "id": 15,
+            "label": "Modeling Basics",
+            "group": "found"
+        },
+        {
+            "id": 16,
+            "label": "Directed Graphs",
+            "group": 2
+        },
+        {
+            "id": 17,
+            "label": "Undirected Graphs",
+            "group": 2
+        },
+        {
+            "id": 18,
+            "label": "Weighted Edges",
+            "group": 2
+        },
+        {
+            "id": 19,
+            "label": "Unweighted Edges",
+            "group": 2
+        },
+        {
+            "id": 20,
+            "label": "Multiplicity",
+            "group": 2
+        },
+        {
+            "id": 6,
+            "label": "Dependency",
+            "group": 2
+        },
+        {
+            "id": 7,
+            "label": "Graph Schema",
+            "group": 2
+        },
+        {
+            "id": 8,
+            "label": "Graph Query Lang",
+            "group": 2
+        },
+        {
+            "id": 9,
+            "label": "ISO GQL",
+            "group": 2
+        },
+        {
+            "id": 21,
+            "label": "Indexing in Graphs",
+            "group": 2
+        },
+        {
+            "id": 22,
+            "label": "Graph Traversal",
+            "group": 2
+        },
+        {
+            "id": 23,
+            "label": "Pattern Matching",
+            "group": 2
+        },
+        {
+            "id": 24,
+            "label": "Graph Merging",
+            "group": 2
+        },
+        {
+            "id": 25,
+            "label": "Graph Splitting",
+            "group": 2
+        },
+        {
+            "id": 26,
+            "label": "Graph Updates",
+            "group": 2
+        },
+        {
+            "id": 27,
+            "label": "Graph Integrity",
+            "group": 2
+        },
+        {
+            "id": 28,
+            "label": "Graph Constraints",
+            "group": 2
+        },
+        {
+            "id": 29,
+            "label": "Graph Normalization",
+            "group": 2
+        },
+        {
+            "id": 30,
+            "label": "Graph Aggregation",
+            "group": 2
+        },
+        {
+            "id": 31,
+            "label": "Schema Evolution",
+            "group": 2
+        },
+        {
+            "id": 32,
+            "label": "Graph Versioning",
+            "group": 3
+        },
+        {
+            "id": 33,
+            "label": "Graph Data Import",
+            "group": 3
+        },
+        {
+            "id": 34,
+            "label": "Graph Data Export",
+            "group": 3
+        },
+        {
+            "id": 35,
+            "label": "Hierarchical Nodes",
+            "group": 3
+        },
+        {
+            "id": 36,
+            "label": "Hyperedges",
+            "group": 3
+        },
+        {
+            "id": 37,
+            "label": "Multi-Graphs",
+            "group": 3
+        },
+        {
+            "id": 38,
+            "label": "Loops and Cycles",
+            "group": 3
+        },
+        {
+            "id": 39,
+            "label": "Graph Isomorphism",
+            "group": 3
+        },
+        {
+            "id": 40,
+            "label": "Graph Sampling",
+            "group": 3
+        },
+        {
+            "id": 79,
+            "label": "Future Projections",
+            "group": 3
+        },
+        {
+            "id": 80,
+            "label": "Time Granularity",
+            "group": 3
+        },
+        {
+            "id": 121,
+            "label": "Building Models",
+            "group": 3
+        },
+        {
+            "id": 141,
+            "label": "Learning Graphs",
+            "group": 3
+        },
+        {
+            "id": 149,
+            "label": "Data Lineage",
+            "group": 3
+        },
+        {
+            "id": 150,
+            "label": "Graph Storytelling",
+            "group": 3
+        },
+        {
+            "id": 61,
+            "label": "Location Node",
+            "group": 4
+        },
+        {
+            "id": 62,
+            "label": "Address Node",
+            "group": 4
+        },
+        {
+            "id": 63,
+            "label": "City Graph",
+            "group": 4
+        },
+        {
+            "id": 64,
+            "label": "County Graph",
+            "group": 4
+        },
+        {
+            "id": 65,
+            "label": "State Graph",
+            "group": 4
+        },
+        {
+            "id": 66,
+            "label": "Metro Region",
+            "group": 4
+        },
+        {
+            "id": 67,
+            "label": "Urban vs Rural",
+            "group": 4
+        },
+        {
+            "id": 68,
+            "label": "Road Network",
+            "group": 4
+        },
+        {
+            "id": 69,
+            "label": "Distance Calc",
+            "group": 4
+        },
+        {
+            "id": 70,
+            "label": "Geo-Spatial Model",
+            "group": 4
+        },
+        {
+            "id": 71,
+            "label": "Datetime Node",
+            "group": 4
+        },
+        {
+            "id": 72,
+            "label": "Time Tree",
+            "group": 4
+        },
+        {
+            "id": 73,
+            "label": "Financial Time",
+            "group": 4
+        },
+        {
+            "id": 74,
+            "label": "Temporal Exceptions",
+            "group": 4
+        },
+        {
+            "id": 75,
+            "label": "Temporal Indexes",
+            "group": 4
+        },
+        {
+            "id": 81,
+            "label": "Knowledge Graph",
+            "group": 5
+        },
+        {
+            "id": 82,
+            "label": "SKOS Concepts",
+            "group": 5
+        },
+        {
+            "id": 83,
+            "label": "Concept Node",
+            "group": 5
+        },
+        {
+            "id": 84,
+            "label": "Labels & Notation",
+            "group": 5
+        },
+        {
+            "id": 85,
+            "label": "Broader Concepts",
+            "group": 5
+        },
+        {
+            "id": 86,
+            "label": "Narrower Concepts",
+            "group": 5
+        },
+        {
+            "id": 87,
+            "label": "Concept Schemas",
+            "group": 5
+        },
+        {
+            "id": 88,
+            "label": "Semantic Layers",
+            "group": 5
+        },
+        {
+            "id": 89,
+            "label": "Concept Hierarchies",
+            "group": 5
+        },
+        {
+            "id": 90,
+            "label": "Semantic Reasoning",
+            "group": 5
+        },
+        {
+            "id": 142,
+            "label": "Concept Dependency",
+            "group": 5
+        },
+        {
+            "id": 143,
+            "label": "Content Models",
+            "group": 5
+        },
+        {
+            "id": 144,
+            "label": "Learning Paths",
+            "group": 5
+        },
+        {
+            "id": 145,
+            "label": "Concept Recommender",
+            "group": 5
+        },
+        {
+            "id": 146,
+            "label": "Intelligent Textbooks",
+            "group": 5
+        },
+        {
+            "id": 13,
+            "label": "LLM Integration",
+            "group": 6
+        },
+        {
+            "id": 91,
+            "label": "NLP Integration",
+            "group": 6
+        },
+        {
+            "id": 92,
+            "label": "Word Node",
+            "group": 6
+        },
+        {
+            "id": 93,
+            "label": "Sentence Node",
+            "group": 6
+        },
+        {
+            "id": 94,
+            "label": "Paragraph Node",
+            "group": 6
+        },
+        {
+            "id": 95,
+            "label": "Document Node",
+            "group": 6
+        },
+        {
+            "id": 96,
+            "label": "Doc Pipelines",
+            "group": 6
+        },
+        {
+            "id": 97,
+            "label": "Text Classification",
+            "group": 6
+        },
+        {
+            "id": 98,
+            "label": "Embeddings",
+            "group": 6
+        },
+        {
+            "id": 99,
+            "label": "WordNet Case",
+            "group": 6
+        },
+        {
+            "id": 100,
+            "label": "Text Summarization",
+            "group": 6
+        },
+        {
+            "id": 135,
+            "label": "Data Mining",
+            "group": 6
+        },
+        {
+            "id": 116,
+            "label": "Similar Attribute",
+            "group": 6
+        },
+        {
+            "id": 117,
+            "label": "Similarity Metrics",
+            "group": 6
+        },
+        {
+            "id": 45,
+            "label": "License Modeling",
+            "group": 6
+        },
+        {
+            "id": 41,
+            "label": "Customer Node",
+            "group": 7
+        },
+        {
+            "id": 42,
+            "label": "Individual Customer",
+            "group": 7
+        },
+        {
+            "id": 43,
+            "label": "Corporate Customer",
+            "group": 7
+        },
+        {
+            "id": 44,
+            "label": "Organizational Roles",
+            "group": 7
+        },
+        {
+            "id": 46,
+            "label": "Abuse Detection",
+            "group": 7
+        },
+        {
+            "id": 47,
+            "label": "Fraud Indicators",
+            "group": 7
+        },
+        {
+            "id": 48,
+            "label": "Customer Churn",
+            "group": 7
+        },
+        {
+            "id": 49,
+            "label": "Customer Segments",
+            "group": 7
+        },
+        {
+            "id": 50,
+            "label": "Customer Profiles",
+            "group": 7
+        },
+        {
+            "id": 101,
+            "label": "Fraud Patterns",
+            "group": 7
+        },
+        {
+            "id": 102,
+            "label": "AML Modeling",
+            "group": 7
+        },
+        {
+            "id": 103,
+            "label": "Unusual Relations",
+            "group": 7
+        },
+        {
+            "id": 104,
+            "label": "Investigation Paths",
+            "group": 7
+        },
+        {
+            "id": 105,
+            "label": "Suspicious Entities",
+            "group": 7
+        },
+        {
+            "id": 119,
+            "label": "Merge Rules",
+            "group": 7
+        },
+        {
+            "id": 51,
+            "label": "Product Node",
+            "group": 8
+        },
+        {
+            "id": 52,
+            "label": "Product Listing",
+            "group": 8
+        },
+        {
+            "id": 53,
+            "label": "Product Group",
+            "group": 8
+        },
+        {
+            "id": 54,
+            "label": "Taxonomy Node",
+            "group": 8
+        },
+        {
+            "id": 55,
+            "label": "Multi-Taxonomy",
+            "group": 8
+        },
+        {
+            "id": 56,
+            "label": "Product Classification",
+            "group": 8
+        },
+        {
+            "id": 57,
+            "label": "Product Metadata",
+            "group": 8
+        },
+        {
+            "id": 58,
+            "label": "SKU Linking",
+            "group": 8
+        },
+        {
+            "id": 59,
+            "label": "Catalog Graph",
+            "group": 8
+        },
+        {
+            "id": 60,
+            "label": "Product Bundles",
+            "group": 8
+        },
+        {
+            "id": 122,
+            "label": "Manufacturing Graph",
+            "group": 8
+        },
+        {
+            "id": 123,
+            "label": "Supply Chain Node",
+            "group": 8
+        },
+        {
+            "id": 118,
+            "label": "Duplicate Detection",
+            "group": 8
+        },
+        {
+            "id": 120,
+            "label": "Identity Graph",
+            "group": 8
+        },
+        {
+            "id": 115,
+            "label": "Entity Resolution",
+            "group": 8
+        },
+        {
+            "id": 106,
+            "label": "Threat Modeling",
+            "group": 9
+        },
+        {
+            "id": 107,
+            "label": "Vulnerability Node",
+            "group": 9
+        },
+        {
+            "id": 108,
+            "label": "Threat Prioritization",
+            "group": 9
+        },
+        {
+            "id": 109,
+            "label": "Person Roles",
+            "group": 9
+        },
+        {
+            "id": 110,
+            "label": "Data Movement Anomaly",
+            "group": 9
+        },
+        {
+            "id": 111,
+            "label": "Patient Node",
+            "group": 9
+        },
+        {
+            "id": 112,
+            "label": "Disease Spread",
+            "group": 9
+        },
+        {
+            "id": 113,
+            "label": "Healthcare Costs",
+            "group": 9
+        },
+        {
+            "id": 114,
+            "label": "Value-Based Care",
+            "group": 9
+        },
+        {
+            "id": 129,
+            "label": "Process Graphs",
+            "group": 9
+        },
+        {
+            "id": 130,
+            "label": "Workflow Events",
+            "group": 9
+        },
+        {
+            "id": 131,
+            "label": "Rule Engine",
+            "group": 9
+        },
+        {
+            "id": 132,
+            "label": "Rule Workflow",
+            "group": 9
+        },
+        {
+            "id": 133,
+            "label": "Decision Tree",
+            "group": 9
+        },
+        {
+            "id": 134,
+            "label": "Validation Rules",
+            "group": 9
+        },
+        {
+            "id": 124,
+            "label": "Scene Graph",
+            "group": "goal"
+        },
+        {
+            "id": 125,
+            "label": "Pixel Classes",
+            "group": "goal"
+        },
+        {
+            "id": 126,
+            "label": "Motion Prediction",
+            "group": "goal"
+        },
+        {
+            "id": 127,
+            "label": "Autonomous Vehicles",
+            "group": "goal"
+        },
+        {
+            "id": 128,
+            "label": "Robotics Integration",
+            "group": "goal"
+        },
+        {
+            "id": 136,
+            "label": "Rule Exchange",
+            "group": "goal"
+        },
+        {
+            "id": 137,
+            "label": "Code Graphs",
+            "group": "goal"
+        },
+        {
+            "id": 138,
+            "label": "Call Graph",
+            "group": "goal"
+        },
+        {
+            "id": 139,
+            "label": "Coverage Graph",
+            "group": "goal"
+        },
+        {
+            "id": 140,
+            "label": "Code Quality",
+            "group": "goal"
+        },
+        {
+            "id": 147,
+            "label": "Correlation vs Cause",
+            "group": "goal"
+        },
+        {
+            "id": 148,
+            "label": "Causal Graph",
+            "group": "goal"
+        },
+        {
+            "id": 76,
+            "label": "Temporal Queries",
+            "group": "goal"
+        },
+        {
+            "id": 77,
+            "label": "Temporal Alignments",
+            "group": "goal"
+        },
+        {
+            "id": 78,
+            "label": "Historical Graphs",
+            "group": "goal"
+        }
+    ],
+    "edges": [
+        {
+            "from": 10,
+            "to": 1
+        },
+        {
+            "from": 11,
+            "to": 10
+        },
+        {
+            "from": 12,
+            "to": 11
+        },
+        {
+            "from": 14,
+            "to": 1
+        },
+        {
+            "from": 15,
+            "to": 2
+        },
+        {
+            "from": 15,
+            "to": 3
+        },
+        {
+            "from": 15,
+            "to": 4
+        },
+        {
+            "from": 16,
+            "to": 2
+        },
+        {
+            "from": 16,
+            "to": 3
+        },
+        {
+            "from": 17,
+            "to": 16
+        },
+        {
+            "from": 18,
+            "to": 3
+        },
+        {
+            "from": 19,
+            "to": 18
+        },
+        {
+            "from": 20,
+            "to": 4
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 6,
+            "to": 3
+        },
+        {
+            "from": 7,
+            "to": 1
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 21,
+            "to": 7
+        },
+        {
+            "from": 22,
+            "to": 5
+        },
+        {
+            "from": 23,
+            "to": 22
+        },
+        {
+            "from": 24,
+            "to": 7
+        },
+        {
+            "from": 25,
+            "to": 24
+        },
+        {
+            "from": 26,
+            "to": 22
+        },
+        {
+            "from": 27,
+            "to": 1
+        },
+        {
+            "from": 27,
+            "to": 4
+        },
+        {
+            "from": 28,
+            "to": 27
+        },
+        {
+            "from": 29,
+            "to": 28
+        },
+        {
+            "from": 30,
+            "to": 29
+        },
+        {
+            "from": 31,
+            "to": 7
+        },
+        {
+            "from": 31,
+            "to": 26
+        },
+        {
+            "from": 32,
+            "to": 31
+        },
+        {
+            "from": 33,
+            "to": 1
+        },
+        {
+            "from": 34,
+            "to": 33
+        },
+        {
+            "from": 35,
+            "to": 2
+        },
+        {
+            "from": 36,
+            "to": 3
+        },
+        {
+            "from": 37,
+            "to": 1
+        },
+        {
+            "from": 38,
+            "to": 22
+        },
+        {
+            "from": 39,
+            "to": 23
+        },
+        {
+            "from": 40,
+            "to": 39
+        },
+        {
+            "from": 79,
+            "to": 14
+        },
+        {
+            "from": 80,
+            "to": 71
+        },
+        {
+            "from": 121,
+            "to": 1
+        },
+        {
+            "from": 141,
+            "to": 1
+        },
+        {
+            "from": 149,
+            "to": 1
+        },
+        {
+            "from": 149,
+            "to": 4
+        },
+        {
+            "from": 150,
+            "to": 90
+        },
+        {
+            "from": 150,
+            "to": 149
+        },
+        {
+            "from": 61,
+            "to": 2
+        },
+        {
+            "from": 61,
+            "to": 4
+        },
+        {
+            "from": 62,
+            "to": 61
+        },
+        {
+            "from": 63,
+            "to": 62
+        },
+        {
+            "from": 64,
+            "to": 63
+        },
+        {
+            "from": 65,
+            "to": 64
+        },
+        {
+            "from": 66,
+            "to": 65
+        },
+        {
+            "from": 67,
+            "to": 66
+        },
+        {
+            "from": 68,
+            "to": 61
+        },
+        {
+            "from": 69,
+            "to": 68
+        },
+        {
+            "from": 70,
+            "to": 61
+        },
+        {
+            "from": 70,
+            "to": 5
+        },
+        {
+            "from": 71,
+            "to": 2
+        },
+        {
+            "from": 71,
+            "to": 4
+        },
+        {
+            "from": 72,
+            "to": 71
+        },
+        {
+            "from": 73,
+            "to": 72
+        },
+        {
+            "from": 74,
+            "to": 72
+        },
+        {
+            "from": 75,
+            "to": 71
+        },
+        {
+            "from": 75,
+            "to": 21
+        },
+        {
+            "from": 81,
+            "to": 1
+        },
+        {
+            "from": 82,
+            "to": 81
+        },
+        {
+            "from": 83,
+            "to": 2
+        },
+        {
+            "from": 83,
+            "to": 81
+        },
+        {
+            "from": 84,
+            "to": 4
+        },
+        {
+            "from": 84,
+            "to": 83
+        },
+        {
+            "from": 85,
+            "to": 83
+        },
+        {
+            "from": 86,
+            "to": 85
+        },
+        {
+            "from": 87,
+            "to": 83
+        },
+        {
+            "from": 87,
+            "to": 31
+        },
+        {
+            "from": 88,
+            "to": 81
+        },
+        {
+            "from": 89,
+            "to": 83
+        },
+        {
+            "from": 90,
+            "to": 88
+        },
+        {
+            "from": 90,
+            "to": 87
+        },
+        {
+            "from": 142,
+            "to": 83
+        },
+        {
+            "from": 143,
+            "to": 83
+        },
+        {
+            "from": 143,
+            "to": 95
+        },
+        {
+            "from": 144,
+            "to": 141
+        },
+        {
+            "from": 144,
+            "to": 142
+        },
+        {
+            "from": 145,
+            "to": 144
+        },
+        {
+            "from": 146,
+            "to": 145
+        },
+        {
+            "from": 146,
+            "to": 95
+        },
+        {
+            "from": 13,
+            "to": 12
+        },
+        {
+            "from": 91,
+            "to": 11
+        },
+        {
+            "from": 91,
+            "to": 13
+        },
+        {
+            "from": 92,
+            "to": 2
+        },
+        {
+            "from": 92,
+            "to": 91
+        },
+        {
+            "from": 93,
+            "to": 92
+        },
+        {
+            "from": 94,
+            "to": 93
+        },
+        {
+            "from": 95,
+            "to": 94
+        },
+        {
+            "from": 96,
+            "to": 95
+        },
+        {
+            "from": 97,
+            "to": 91
+        },
+        {
+            "from": 98,
+            "to": 91
+        },
+        {
+            "from": 98,
+            "to": 92
+        },
+        {
+            "from": 99,
+            "to": 92
+        },
+        {
+            "from": 99,
+            "to": 83
+        },
+        {
+            "from": 100,
+            "to": 95
+        },
+        {
+            "from": 100,
+            "to": 98
+        },
+        {
+            "from": 135,
+            "to": 1
+        },
+        {
+            "from": 135,
+            "to": 91
+        },
+        {
+            "from": 116,
+            "to": 4
+        },
+        {
+            "from": 116,
+            "to": 115
+        },
+        {
+            "from": 117,
+            "to": 116
+        },
+        {
+            "from": 45,
+            "to": 4
+        },
+        {
+            "from": 41,
+            "to": 2
+        },
+        {
+            "from": 41,
+            "to": 4
+        },
+        {
+            "from": 42,
+            "to": 41
+        },
+        {
+            "from": 43,
+            "to": 41
+        },
+        {
+            "from": 44,
+            "to": 43
+        },
+        {
+            "from": 46,
+            "to": 23
+        },
+        {
+            "from": 47,
+            "to": 46
+        },
+        {
+            "from": 48,
+            "to": 42
+        },
+        {
+            "from": 49,
+            "to": 42
+        },
+        {
+            "from": 49,
+            "to": 43
+        },
+        {
+            "from": 50,
+            "to": 49
+        },
+        {
+            "from": 101,
+            "to": 47
+        },
+        {
+            "from": 102,
+            "to": 101
+        },
+        {
+            "from": 103,
+            "to": 23
+        },
+        {
+            "from": 104,
+            "to": 103
+        },
+        {
+            "from": 105,
+            "to": 101
+        },
+        {
+            "from": 119,
+            "to": 24
+        },
+        {
+            "from": 119,
+            "to": 118
+        },
+        {
+            "from": 51,
+            "to": 2
+        },
+        {
+            "from": 51,
+            "to": 4
+        },
+        {
+            "from": 52,
+            "to": 51
+        },
+        {
+            "from": 53,
+            "to": 52
+        },
+        {
+            "from": 54,
+            "to": 4
+        },
+        {
+            "from": 55,
+            "to": 54
+        },
+        {
+            "from": 56,
+            "to": 55
+        },
+        {
+            "from": 57,
+            "to": 56
+        },
+        {
+            "from": 58,
+            "to": 51
+        },
+        {
+            "from": 59,
+            "to": 51
+        },
+        {
+            "from": 60,
+            "to": 53
+        },
+        {
+            "from": 122,
+            "to": 1
+        },
+        {
+            "from": 123,
+            "to": 2
+        },
+        {
+            "from": 123,
+            "to": 4
+        },
+        {
+            "from": 118,
+            "to": 117
+        },
+        {
+            "from": 120,
+            "to": 115
+        },
+        {
+            "from": 115,
+            "to": 1
+        },
+        {
+            "from": 106,
+            "to": 22
+        },
+        {
+            "from": 107,
+            "to": 2
+        },
+        {
+            "from": 107,
+            "to": 106
+        },
+        {
+            "from": 108,
+            "to": 107
+        },
+        {
+            "from": 109,
+            "to": 2
+        },
+        {
+            "from": 109,
+            "to": 44
+        },
+        {
+            "from": 110,
+            "to": 105
+        },
+        {
+            "from": 111,
+            "to": 2
+        },
+        {
+            "from": 111,
+            "to": 4
+        },
+        {
+            "from": 112,
+            "to": 111
+        },
+        {
+            "from": 112,
+            "to": 22
+        },
+        {
+            "from": 113,
+            "to": 111
+        },
+        {
+            "from": 114,
+            "to": 113
+        },
+        {
+            "from": 129,
+            "to": 1
+        },
+        {
+            "from": 129,
+            "to": 2
+        },
+        {
+            "from": 130,
+            "to": 129
+        },
+        {
+            "from": 131,
+            "to": 1
+        },
+        {
+            "from": 132,
+            "to": 131
+        },
+        {
+            "from": 132,
+            "to": 130
+        },
+        {
+            "from": 133,
+            "to": 131
+        },
+        {
+            "from": 134,
+            "to": 133
+        },
+        {
+            "from": 124,
+            "to": 2
+        },
+        {
+            "from": 124,
+            "to": 3
+        },
+        {
+            "from": 125,
+            "to": 124
+        },
+        {
+            "from": 126,
+            "to": 124
+        },
+        {
+            "from": 126,
+            "to": 72
+        },
+        {
+            "from": 127,
+            "to": 126
+        },
+        {
+            "from": 128,
+            "to": 124
+        },
+        {
+            "from": 136,
+            "to": 132
+        },
+        {
+            "from": 137,
+            "to": 1
+        },
+        {
+            "from": 138,
+            "to": 137
+        },
+        {
+            "from": 139,
+            "to": 138
+        },
+        {
+            "from": 140,
+            "to": 139
+        },
+        {
+            "from": 147,
+            "to": 10
+        },
+        {
+            "from": 148,
+            "to": 147
+        },
+        {
+            "from": 76,
+            "to": 75
+        },
+        {
+            "from": 77,
+            "to": 76
+        },
+        {
+            "from": 78,
+            "to": 72
+        }
+    ]
+}

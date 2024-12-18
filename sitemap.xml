@@ -117,15 +117,59 @@
          <lastmod>2024-12-18</lastmod>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/22-bitemporal-modeling/</loc>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/22-modeling-supply-chains/</loc>
          <lastmod>2024-12-18</lastmod>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/23-model-evolution/</loc>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/23-bitemporal-modeling/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/24-advanced-topics/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/25-model-evolution/</loc>
          <lastmod>2024-12-18</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/25-reference-frames/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/prompts/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/prompts/01-course-desciption/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/prompts/02-concept-enumeration/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/prompts/03-concept-dependencies/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/prompts/04-taxonomy/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/prompts/05-classify/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/sims/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/sims/customer-graph/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/sims/learning-graph/</loc>
          <lastmod>2024-12-18</lastmod>
     </url>
 </urlset>
