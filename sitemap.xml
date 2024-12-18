@@ -5,6 +5,10 @@
          <lastmod>2024-12-18</lastmod>
     </url>
     <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/about/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
          <loc>https://dmccreary.github.io/graph-data-modeling-course/contact/</loc>
          <lastmod>2024-12-18</lastmod>
     </url>
@@ -22,6 +26,94 @@
     </url>
     <url>
          <loc>https://dmccreary.github.io/graph-data-modeling-course/references/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/01-introduction/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/02-concepts/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/03-modeling-customers/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/04-modeling-products/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/05-modeling-space/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/06-modeling-time/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/07-modeling-concepts/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/08-modeling-language/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/09-modeling-fraud/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/10-modeling-healthcare/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/11-entity-resolution/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/12-digital-twins/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/13-modeling-scenes/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/14-modeling-rules/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/15-modeling-code/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/16-modeling-security-threats/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/17-modeling-processes/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/18-modeling-learning/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/19-modeling-causeality/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/20-modeling-linage/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/21-metadata-modeling/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/graph-data-modeling-course/chapters/25-reference-frames/</loc>
          <lastmod>2024-12-18</lastmod>
     </url>
 </urlset>
