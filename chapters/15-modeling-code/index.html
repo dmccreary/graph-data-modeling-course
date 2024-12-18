@@ -26,7 +26,7 @@
     
     
       
-        <title>Index - Graph Data Modeling</title>
+        <title>Chapter 15: Modeling Code - Graph Data Modeling</title>
       
     
     
@@ -77,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#chapter-15-modeling-code" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -108,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Index
+              Chapter 15: Modeling Code
             
           </span>
         </div>
@@ -356,8 +361,6 @@
           
         
       
-        
-          
         
       
         
@@ -688,7 +691,7 @@
         
   
   <span class="md-ellipsis">
-    Modeling Business Rules
+    Chapter 14: Modeling Business Rules
   </span>
   
 
@@ -711,16 +714,138 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Chapter 15: Modeling Code
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Index
+    Chapter 15: Modeling Code
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-concepts-of-code-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Concepts of Code Graphs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#call-graph-modeling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Call Graph Modeling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#text-coverage-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Text Coverage Graphs**
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrating-multiple-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrating Multiple Graphs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#graph-based-code-quality-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Graph-Based Code Quality Metrics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-for-graph-based-code-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools for Graph-Based Code Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#case-studies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Case Studies
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Future Directions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hands-on-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hands-On Exercises
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion**
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -822,7 +947,7 @@
         
   
   <span class="md-ellipsis">
-    Index
+    Modeling Linage
   </span>
   
 
@@ -860,11 +985,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../22-model-evolution/" class="md-nav__link">
+      <a href="../22-model-evolution/index.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Model Evolution
+    None
   </span>
   
 
@@ -1019,6 +1144,106 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-concepts-of-code-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Concepts of Code Graphs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#call-graph-modeling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Call Graph Modeling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#text-coverage-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Text Coverage Graphs**
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrating-multiple-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrating Multiple Graphs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#graph-based-code-quality-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Graph-Based Code Quality Metrics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-for-graph-based-code-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools for Graph-Based Code Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#case-studies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Case Studies
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Future Directions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hands-on-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hands-On Exercises
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion**
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1041,9 +1266,138 @@
   
 
 
-  <h1>Index</h1>
-
-
+<h1 id="chapter-15-modeling-code">Chapter 15: Modeling Code</h1>
+<ul>
+<li>Overview of network graphs and their relevance in software engineering.</li>
+<li>Why network graphs provide unique insights into code structure and behavior.</li>
+<li>Benefits of graph-based analysis for developers (e.g., debugging, performance optimization, and testing).</li>
+</ul>
+<h2 id="core-concepts-of-code-graphs">Core Concepts of Code Graphs</h2>
+<ul>
+<li><strong>Nodes and Edges: Representing Code Elements</strong><ul>
+<li>Nodes as functions, classes, or modules.</li>
+<li>Edges as relationships (e.g., calls, dependencies, data flow).</li>
+</ul>
+</li>
+<li><strong>Directed vs. Undirected Graphs</strong><ul>
+<li>Understanding the directionality of relationships in code.</li>
+</ul>
+</li>
+<li><strong>Weighted Edges</strong><ul>
+<li>Representing metrics like frequency of calls, execution time, or code complexity.</li>
+</ul>
+</li>
+</ul>
+<h2 id="call-graph-modeling">Call Graph Modeling</h2>
+<p>Software can be modeled as a call graph.  Each software
+function can be modeled as a node in a graph.  If
+a function calls another function, an edge is
+created between those functions.  If function A calls
+function B we can say that A may depend on function B.
+If function B has a bug, then we might determine that
+function A also has this bug as well as all other functions
+that depend on function A.</p>
+<ul>
+<li><strong>Definition and Purpose</strong><ul>
+<li>A graph where nodes represent functions and edges represent function calls.</li>
+</ul>
+</li>
+<li><strong>Applications</strong><ul>
+<li>Identifying dead code or unused functions.</li>
+<li>Optimizing recursive or heavily called functions.</li>
+</ul>
+</li>
+<li><strong>Creating Call Graphs</strong><ul>
+<li>Tools for generating call graphs from codebases.</li>
+<li>Examples of languages or frameworks (e.g., Python's <code>pycallgraph</code> or Java's <code>javacg</code>).</li>
+</ul>
+</li>
+<li><strong>Analyzing Call Graphs</strong><ul>
+<li>Metrics: Depth, breadth, and connectivity of the graph.</li>
+<li>Detecting circular dependencies.</li>
+</ul>
+</li>
+<li><strong>Case Study: Debugging with Call Graphs</strong><ul>
+<li>Walkthrough of using a call graph to resolve a real-world problem.</li>
+</ul>
+</li>
+</ul>
+<h2 id="text-coverage-graphs">Text Coverage Graphs**</h2>
+<hr />
+<ul>
+<li><strong>Definition and Importance</strong><ul>
+<li>Modeling relationships between text (e.g., comments, documentation) and code elements.</li>
+</ul>
+</li>
+<li><strong>Applications</strong><ul>
+<li>Tracking which parts of the code are well-documented.</li>
+<li>Ensuring test cases cover all branches and lines of code.</li>
+</ul>
+</li>
+<li><strong>Building Text Coverage Graphs</strong><ul>
+<li>Representing links between test cases, functions, and documentation.</li>
+<li>Tools and frameworks for text-to-code mapping.</li>
+</ul>
+</li>
+<li><strong>Analyzing Coverage</strong><ul>
+<li>Identifying gaps in documentation or testing.</li>
+<li>Strategies to improve coverage (e.g., automated tools for generating missing links).</li>
+</ul>
+</li>
+</ul>
+<h2 id="integrating-multiple-graphs">Integrating Multiple Graphs</h2>
+<ul>
+<li>Combining call graphs with text coverage graphs.</li>
+<li>Visualizing interdependencies between code execution and documentation/testing.</li>
+<li>Examples of hybrid graphs for holistic code analysis.</li>
+</ul>
+<h2 id="graph-based-code-quality-metrics">Graph-Based Code Quality Metrics</h2>
+<ul>
+<li><strong>Key Metrics</strong><ul>
+<li>Cyclomatic complexity.</li>
+<li>Code churn and its representation in graphs.</li>
+<li>Hotspots: Functions or modules with high connectivity or execution frequency.</li>
+</ul>
+</li>
+<li><strong>Using Metrics for Refactoring</strong><ul>
+<li>Prioritizing areas for improvement based on graph insights.</li>
+</ul>
+</li>
+</ul>
+<h2 id="tools-for-graph-based-code-analysis">Tools for Graph-Based Code Analysis</h2>
+<ul>
+<li>Overview of popular tools and libraries for building and analyzing code graphs.<ul>
+<li>Static analysis tools (e.g., Graphviz, Doxygen).</li>
+<li>Dynamic analysis tools (e.g., Jaeger for distributed systems).</li>
+</ul>
+</li>
+<li>Integrating graph analysis into CI/CD pipelines.</li>
+</ul>
+<h2 id="case-studies">Case Studies</h2>
+<ul>
+<li>Example 1: Using Call Graphs for Performance Optimization.</li>
+<li>Example 2: Ensuring Comprehensive Test Coverage with Text Coverage Graphs.</li>
+<li>Example 3: Visualizing Large Legacy Codebases with Hybrid Graphs.</li>
+</ul>
+<h2 id="future-directions">Future Directions</h2>
+<ul>
+<li>Advanced use cases: Predictive modeling and AI-driven refactoring using code graphs.</li>
+<li>Real-time visualization of code execution graphs in debugging tools.</li>
+<li>Collaboration and version control integration with graph modeling.</li>
+</ul>
+<hr />
+<h2 id="hands-on-exercises">Hands-On Exercises</h2>
+<ul>
+<li><strong>Exercise 1:</strong> Generate and analyze a call graph for a small project.</li>
+<li><strong>Exercise 2:</strong> Create a text coverage graph linking test cases to code functions.</li>
+<li><strong>Exercise 3:</strong> Combine call graphs and text coverage graphs for a holistic analysis.</li>
+<li><strong>Exercise 4:</strong> Use graph metrics to identify and refactor a code hotspot.</li>
+</ul>
+<h2 id="conclusion">Conclusion**</h2>
+<ul>
+<li>Recap of the value of modeling code with network graphs.</li>
+<li>Encouragement to integrate graph-based analysis into everyday development practices.</li>
+</ul>
 
 
 
@@ -1079,7 +1433,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../14-modeling-rules/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Modeling Business Rules">
+          <a href="../14-modeling-rules/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Chapter 14: Modeling Business Rules">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1089,7 +1443,7 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Modeling Business Rules
+                Chapter 14: Modeling Business Rules
               </div>
             </div>
           </a>
