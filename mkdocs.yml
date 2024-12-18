@@ -9,8 +9,33 @@ edit_uri: 'blob/master/docs'
 nav:
   - Home: index.md
   - About: about.md
-  - Code Highlight Test: code-highlight-test.md
+  - CHapters:
+    - Table of Contents: chapters/index.md
+    - chapters/01-introduction/index.md
+    - chapters/02-concepts/index.md
+    - chapters/03-modeling-customers/index.md
+    - chapters/04-modeling-products/index.md
+    - chapters/05-modeling-space/index.md
+    - chapters/06-modeling-time/index.md
+    - chapters/07-modeling-concepts/index.md
+    - chapters/08-modeling-language/index.md
+    - chapters/09-modeling-fraud/index.md
+    - chapters/10-modeling-healthcare/index.md
+    - chapters/11-entity-resolution/index.md
+    - chapters/12-digital-twins/index.md
+    - chapters/13-modeling-scenes/index.md
+    - chapters/14-modeling-rules/index.md
+    - chapters/15-modeling-code/index.md
+    - chapters/16-modeling-security-threats/index.md
+    - chapters/17-modeling-processes/index.md
+    - chapters/18-modeling-learning/index.md
+    - chapters/19-modeling-causality/index.md
+    - chapters/20-modeling-linage/index.md
+    - chapters/21-metadata-modeling/index.md
+    - chapters/22-model-evolution/index.md
+    - chapters/25-reference-frames/index.md
   - Glossary: glossary.md
+  - license.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
   - Contact: contact.md
