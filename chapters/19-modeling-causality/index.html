@@ -12,13 +12,13 @@
         <meta name="author" content="Dan McCreary">
       
       
-        <link rel="canonical" href="https://dmccreary.github.io/graph-data-modeling-course/chapters/17-modeling-processes/">
+        <link rel="canonical" href="https://dmccreary.github.io/graph-data-modeling-course/chapters/19-modeling-causality/">
       
       
-        <link rel="prev" href="../16-modeling-security-threats/">
+        <link rel="prev" href="../18-modeling-learning/">
       
       
-        <link rel="next" href="../18-modeling-learning/">
+        <link rel="next" href="../20-modeling-linage/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Modeling Business Processes - Graph Data Modeling</title>
+        <title>Modeling Causality - Graph Data Modeling</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#modeling-business-processes" class="md-skip">
+        <a href="#modeling-causality" class="md-skip">
           Skip to content
         </a>
       
@@ -113,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Modeling Business Processes
+              Modeling Causality
             
           </span>
         </div>
@@ -749,30 +749,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Modeling Business Processes
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../17-modeling-processes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -781,44 +761,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#modeling-events" class="md-nav__link">
-    <span class="md-ellipsis">
-      Modeling Events
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#event-mining" class="md-nav__link">
-    <span class="md-ellipsis">
-      Event Mining
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -849,10 +791,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../19-modeling-causality/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Modeling Causality
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -861,6 +823,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#causal-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Causal Graphs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#systems-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Systems Thinking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#causality-and-data-flows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Causality and Data Flows
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1084,18 +1093,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#modeling-events" class="md-nav__link">
+  <a href="#causal-graphs" class="md-nav__link">
     <span class="md-ellipsis">
-      Modeling Events
+      Causal Graphs
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#event-mining" class="md-nav__link">
+  <a href="#systems-thinking" class="md-nav__link">
     <span class="md-ellipsis">
-      Event Mining
+      Systems Thinking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#causality-and-data-flows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Causality and Data Flows
     </span>
   </a>
   
@@ -1116,7 +1134,7 @@
                   
 
   
-    <a href="https://github.com/dmccreary/graph-data-modeling-course/blob/master/docs/chapters/17-modeling-processes/index.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/dmccreary/graph-data-modeling-course/blob/master/docs/chapters/19-modeling-causality/index.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -1124,9 +1142,10 @@
   
 
 
-<h1 id="modeling-business-processes">Modeling Business Processes</h1>
-<h2 id="modeling-events">Modeling Events</h2>
-<h2 id="event-mining">Event Mining</h2>
+<h1 id="modeling-causality">Modeling Causality</h1>
+<h2 id="causal-graphs">Causal Graphs</h2>
+<h2 id="systems-thinking">Systems Thinking</h2>
+<h2 id="causality-and-data-flows">Causality and Data Flows</h2>
 
 
 
@@ -1162,7 +1181,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../16-modeling-security-threats/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Modeling Security Threats">
+          <a href="../18-modeling-learning/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Modeling Learning">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1172,20 +1191,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Modeling Security Threats
+                Modeling Learning
               </div>
             </div>
           </a>
         
         
           
-          <a href="../18-modeling-learning/" class="md-footer__link md-footer__link--next" aria-label="Next: Modeling Learning">
+          <a href="../20-modeling-linage/" class="md-footer__link md-footer__link--next" aria-label="Next: Index">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Modeling Learning
+                Index
               </div>
             </div>
             <div class="md-footer__button md-icon">
