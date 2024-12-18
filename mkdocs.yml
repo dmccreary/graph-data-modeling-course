@@ -8,6 +8,7 @@ edit_uri: 'blob/master/docs'
 
 nav:
   - Home: index.md
+  - About: about.md
   - Code Highlight Test: code-highlight-test.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
