@@ -32,11 +32,22 @@ nav:
     - chapters/19-modeling-causality/index.md
     - chapters/20-modeling-linage/index.md
     - chapters/21-metadata-modeling/index.md
-    - chapters/22-model-evolution/index.md
-    - chapters/25-reference-frames/index.md
+    - chapters/22-modeling-supply-chains/index.md
+    - chapters/23-bitemporal-modeling/index.md
+    - chapters/24-advanced-topics/index.md
+    - chapters/25-model-evolution/index.md
+    - chapters/26-reference-frames/index.md
+  - Prompts:
+    - prompts/index.md
+    - prompts/01-course-description.md
+    - prompts/02-concept-enumeration.md
+    - prompts/03-concept-dependencies.md
+    - prompts/04-taxonomy.md
+    - prompts/05-classify.md
   - Sims:
     - List of Sims: sims/index.md
     - Learning Graph: sims/learning-graph/index.md
+    - Customer Graph: sims/customer-graph/index.md
   - Glossary: glossary.md
   - license.md
   - How We Built This Site: how-we-built-this-site.md
