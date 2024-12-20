@@ -1,5 +1,5 @@
 site_name: Graph Data Modeling
-site_description: 'An undergraduate college-level course on graph data modeling. All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_description: 'An undergraduate college-level course on graph data modeling with AI. All content licensed Creative Commons ShareAlike Attribution Noncommercial'
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
 site_url: 'https://dmccreary.github.io/graph-data-modeling-course/'
@@ -36,7 +36,8 @@ nav:
     - chapters/23-bitemporal-modeling/index.md
     - chapters/24-advanced-topics/index.md
     - chapters/25-model-evolution/index.md
-    - chapters/26-reference-frames/index.md
+    - chapters/26-brain/index.md
+    - chapters/27-ai-futures/index.md
   - Prompts:
     - prompts/index.md
     - prompts/01-course-description.md
