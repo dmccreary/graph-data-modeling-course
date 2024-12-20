@@ -1,3 +1,5 @@
+# Glossary of Terms for Graph Data Modeling with AI Course
+
 #### AML Modeling
 
 **AML (Anti-Money Laundering) Modeling** represents money laundering schemes in graph form to aid in detection and prevention.
