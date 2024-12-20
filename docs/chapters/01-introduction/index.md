@@ -33,3 +33,23 @@ A story about Google and the Page Rank algorithm developed at Stanford by Larry 
 ## Graph Models and LLMs
 
 ## The Future of Graph Databases
+
+## Conventions Used In This Book
+
+We use title case for names of nodes and all uppercase with underscores for the names of edges.  We use lower case for attributes.
+
+This convention allows us to quickly see the data type when reading queries.
+
+## Callouts and Annotations
+
+In order to enhance the readability of this book we use the following callouts and annotations:
+
+!!! Note
+    Sample note text.
+
+!!! Warning
+
+!!! Prompt
+
+## Code Highlighting
+
