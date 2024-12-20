@@ -45,6 +45,7 @@ nav:
     - prompts/03-concept-dependencies.md
     - prompts/04-taxonomy.md
     - prompts/05-classify.md
+    - prompts/06-glossary.md
   - Sims:
     - List of Sims: sims/index.md
     - Learning Graph: sims/learning-graph/index.md

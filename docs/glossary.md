@@ -68,13 +68,13 @@ A **City Graph** models the infrastructure and relationships within a city, incl
 
 #### Code Quality
 
-**Code Quality** uses graph-based models to evaluate and improve the structure, readability, and performance of code.
+Using graph-based models to evaluate and improve the structure, readability, and performance of code.
 
 **Example:** We can analyze a code quality graph to identify modules with high cyclomatic complexity.
 
 #### Concept Dependency
 
-A **Concept Dependency** represents a prerequisite relationship where one concept must be understood before another.
+A prerequisite relationship where one concept depends on other concepts.
 
 **Example:** We can create a dependency graph showing that "Basic Math" must precede "Calculus."
 
@@ -86,15 +86,18 @@ A layered structure that organizes concepts by specificity, from general to spec
 
 #### Concept Node
 
-A **Concept Node** represents an idea or term in a knowledge graph, often with links to related concepts.
+A node that represents any idea or term in a knowledge graph, often with links to related concepts.
 
 **Example:** We can link concept nodes like "Physics" and "Newton's Laws" in a learning graph.
 
 #### Concept Recommender
 
-A **Concept Recommender** suggests related concepts or learning resources based on graph data.
+A suggested related concept or resource based on graph data.
 
-**Example:** A course project involves building a graph-based recommender to suggest topics like "Graph Traversal" after "Graph Basics."
+Recommender systems use similarity to find similar nodes in a graph.
+
+**Examples:** A movie can be represented as a node in a graph.  A recommendation
+system can answer the question "If you liked this movie, this other movie might be of interest to you.  A course project involves building a graph-based recommender to suggest topics like "Graph Traversal" after "Graph Basics."
 
 #### Concept Schemas
 
@@ -122,13 +125,13 @@ A term we use to highlights the distinction between correlated patterns and caus
 
 #### County Graph
 
-A **County Graph** extends the city graph to represent administrative divisions and their interconnections.
+A graph to represent a country including administrative divisions and their interconnections.
 
 **Example:** We can analyze inter-county trade relationships using a county graph.
 
 #### Coverage Graph
 
-A **Coverage Graph** shows the extent of code coverage in testing, linking tested modules and their dependencies.
+The extent of code coverage in testing in a graph, linking tested modules and their dependencies.
 
 **Example:** We can design a coverage graph to visualize which parts of a codebase have been adequately tested.
 
@@ -140,13 +143,13 @@ The prediction or analysis of customers likely to discontinue using a service, r
 
 #### Customer Node
 
-A **Customer Node** represents an individual or organization as an entity in a graph, typically used in customer relationship management.
+A node representation of an individual or organization as an entity in a graph, typically used in customer relationship management.
 
 **Example:** We can build a retail graph where "Customer Nodes" are connected to "Purchase" edges.
 
 #### Customer Profiles
 
-**Customer Profiles** are enriched representations of customers in a graph, combining demographic, transactional, and behavioral data.
+Enriched representations of customers in a graph, combining demographic, transactional, and behavioral data.
 
 **Example:** We can design customer profile nodes in a graph with attributes like age, gender, and lifetime value.
 
@@ -224,13 +227,13 @@ A graph in which edges have a direction, indicating a one-way relationship betwe
 
 #### Document Node
 
-A **Document Node** represents an entire document in a graph, connecting its internal structures and external relationships.
+The representation of entire document in a graph, connecting its internal structures and external relationships.
 
 **Example:** We can build a research paper graph where document nodes are linked to their citations.
 
 #### Duplicate Detection
 
-**Duplicate Detection** identifies and resolves duplicate entities or relationships in a graph.
+Identification and removal of duplicate entities or relationships in a graph.
 
 **Example:** We can use duplicate detection algorithms to merge multiple "Customer" nodes representing the same individual.
 
@@ -242,49 +245,51 @@ A connection between two nodes in a graph, representing a relationship or intera
 
 #### Embeddings
 
-**Embeddings** are vector representations of graph elements, enabling similarity and clustering analyses.
+Vector representations of graph elements, enabling similarity and clustering analyses.
 
 **Example:** We can generate embeddings for nodes in a knowledge graph to find related concepts.
 
 #### Entity Resolution
 
-**Entity Resolution** involves identifying and consolidating multiple representations of the same entity in a graph.
+Identifying and consolidating multiple representations of the same entity in a graph.
 
 **Example:** We can resolve duplicate "Vendor" nodes in a procurement graph based on matching attributes.
 
 #### Financial Time
 
-**Financial Time** represents time in a graph relative to financial cycles, such as fiscal quarters or tax years.
+Time in a graph relative to financial cycles, such as fiscal quarters or tax years.
+
+Many organizations has a different calendar for reporting financial activities.  Having a precise model of when reporting periods start and end is essential to consistent financial reporting across many business units within a large organization.
 
 **Example:** We can analyze a financial graph to track quarterly revenue trends.
 
 #### Fraud Indicators
 
-**Fraud Indicators** are specific patterns or anomalies in a graph that suggest fraudulent activity.
+Specific patterns or anomalies in a graph that suggest fraudulent activity.
 
 **Example:** In a financial graph, students identify accounts with a high number of transactions to the same recipient node as potential fraud indicators.
 
 #### Fraud Patterns
 
-**Fraud Patterns** are recurring behaviors or structures in a graph that indicate fraudulent activity.
+Finding recurring behaviors or structures in a graph that indicate fraudulent activity.
 
 **Example:** We can analyze a graph of credit card transactions to identify patterns like circular money flows.
 
 #### Future Projections
 
-**Future Projections** involve using graph models to predict potential future states or trends based on historical data.
+Using graph models to predict potential future states or trends based on historical data.
 
 **Example:** We can use a graph of financial transactions to predict future customer purchasing behaviors.
 
 #### Geo-Spatial Model
 
-A **Geo-Spatial Model** integrates geographic data into graphs, allowing spatial analysis and visualization.
+Integrating geographic data into graphs, allowing spatial analysis and visualization.
 
 **Example:** In a project, students model earthquake impacts using a geo-spatial graph.
 
 #### Graph Aggregation
 
-**Graph Aggregation** involves summarizing or combining graph data to derive insights or reduce complexity.
+The summarizing or combining graph data to derive insights or reduce complexity.
 
 **Example:** We can calculate the total transaction value between customers and merchants in a financial graph.
 
@@ -296,13 +301,13 @@ A **Geo-Spatial Model** integrates geographic data into graphs, allowing spatial
 
 #### Graph Data Export
 
-**Graph Data Export** involves extracting data from a graph database into an external format for analysis or sharing.
+Extracting data from a graph database into an external format for analysis or sharing.
 
 **Example:** A student exports a knowledge graph into JSON format for integration with a machine learning model.
 
 #### Graph Data Import
 
-**Graph Data Import** is the process of transferring external data into a graph database while maintaining its structure.
+The process of transferring external data into a graph database while maintaining its structure.
 
 **Example:** We can import CSV data of employees and departments into a graph database as nodes and edges.
 
@@ -320,19 +325,19 @@ An exploration emerging trends and advancements in graph data modeling and techn
 
 #### Graph Integrity
 
-**Graph Integrity** ensures the correctness and consistency of a graph's structure and data.
+The process of ensuring the correctness and consistency of a graph's structure and data.
 
 **Example:** The course teaches students how to enforce referential integrity rules between nodes and edges.
 
 #### Graph Isomorphism
 
-**Graph Isomorphism** is the equivalence of two graphs based on their structure, regardless of node or edge labels.
+The equivalence of two graphs based on their structure, regardless of node or edge labels.
 
-**Example:** A student compares two network diagrams to determine if they represent the same structure.
+**Example:** We can compare two subgraphs to determine if they represent the same structure.
 
 #### Graph Merging
 
-**Graph Merging** is the process of combining two or more graphs into a unified structure while resolving conflicts.
+The process of combining two or more graphs into a unified structure while resolving conflicts.
 
 **Example:** A student merges separate graphs of product catalogs and customer reviews into a single unified graph.
 
@@ -350,7 +355,7 @@ A standardized graph query language  designed for querying and manipulating grap
 
 #### Graph Sampling
 
-**Graph Sampling** involves selecting a representative subset of a graph for analysis or visualization.
+Selecting a representative subset of a graph for analysis or visualization.
 
 **Example:** We can sample a large social network graph to focus on the most active users and their connections.
 
@@ -371,7 +376,7 @@ Dividing a graph into subgraphs based on certain criteria or constraints.
 
 #### Graph Storytelling
 
-**Graph Storytelling** uses graph data visualizations to communicate complex relationships and insights effectively.
+Using graph data visualizations to communicate complex relationships and insights effectively.
 
 **Example:** We can design a storytelling graph to explain the spread of misinformation in social networks.
 
@@ -383,9 +388,14 @@ The process of traversing the connected nodes in a graph.
 
 #### Graph Updates
 
-**Graph Updates** involve modifying the structure or properties of a graph, such as adding, deleting, or updating nodes and edges.
+The process of modifying the structure or properties of a graph, such as adding, deleting, or updating nodes and edges.
 
-**Example:** In an exercise, students update a graph to add new product nodes and their associated relationships.
+Graph databases must often provide extra software to make sure that updates alway
+leave a graph in a consistent state.
+
+**Example:** A graph of a bank accounts can shows funds being transferred
+between accounts.  The graph must make sure that both a addition and removal
+are always consistent even if a server crashes in the middle of a transaction.
 
 #### Graph Versioning
 
@@ -465,6 +475,12 @@ A **Knowledge Graph** organizes and connects information into a network of entit
 
 **Example:** A student uses graph algorithms to deduce influential customers from sales data, converting data into actionable knowledge.
 
+#### Large Language Model
+
+A statistical model designed to understand, generate, and analyze human language by processing large datasets and identifying complex patterns in text data.
+
+**Example:** In our course, we use this technology to automatically generate definitions for graph concepts. For instance, we can upload our [Learning Graph](#learning-graph) to our project and request that definitions be created for all these concepts..
+
 #### LLM Integration
 
 **LLM Integration** involves combining graph data with large language models to enhance natural language processing tasks.
@@ -477,45 +493,50 @@ A **Knowledge Graph** organizes and connects information into a network of entit
 
 **Example:** A student assigns labels to nodes to represent their roles, such as "City" or "State."
 
-#### Learning Graphs
+#### Learning Graph
 
-**Learning Graphs** are educational frameworks where concepts and their dependencies are structured as a graph to guide learning paths.
+Graph data models where concepts and their dependencies are structured as a graph to guide learning paths.  Concepts are represented as nodes and dependencies between concept understanding are represented as edges.
 
 **Example:** The course includes a graph showing the dependencies between topics like "Schema Evolution" and "Graph Normalization."
 
-#### Learning Paths
+* See our [Learning Graph](https://dmccreary.github.io/learning-graphs/) website for details.
 
-**Learning Paths** are sequences of concepts in a graph that guide learners through a structured progression.
+#### Learning Path
 
-**Example:** We can map learning paths from "Introduction to Graphs" to "Advanced Algorithms" in an educational graph.
+Sequences of concepts in a [Learning Graph](#learning-graph) that guide learners through a structured progression.
 
-#### License Modeling
+**Example:** We can map learning paths from "Introduction to Graphs" to "Advanced Algorithms" using a learning graph.
 
-Representing licensing agreements and constraints in a graph structure.
+#### License Graph
+
+Representing licensing agreements and constraints in a graph structure that can be used by agents to verify conformity to a license agreement.
 
 **Example:** We can create a graph to track software licenses, linking product nodes to license nodes with constraints.
 
 #### Location Node
 
-A **Location Node** represents a geographic entity in a graph, such as a city, address, or landmark.
+A geographic entity in a graph, such as a city, state, address, intersection, or landmark.
+
+Location Nodes frequently contain a coordinate with both longitude and latitude attributes.  By using these coordinates it is easy to create precise distance
+measurements between locations.
 
 **Example:** We can build a graph where "Location Nodes" represent cities connected by roads and railways.
 
 #### Loops and Cycles
 
-**Loops and Cycles** refer to paths in a graph that return to their starting node, representing feedback or self-referencing structures.
+Paths in a graph that return to their starting node, representing feedback or self-referencing structures.
 
 **Example:** We can identify cycles in a dependency graph to detect potential deadlocks.
 
 #### Manufacturing Graph
 
-A **Manufacturing Graph** represents the components, processes, and relationships in a manufacturing system.
+A graph representation of the components, processes, and relationships in a manufacturing system.
 
 **Example:** We can build a manufacturing graph with nodes for machines, parts, and processes, linked by edges indicating workflows.
 
 #### Merge Rules
 
-**Merge Rules** define criteria and processes for combining nodes or edges in a graph.
+Criteria and processes for combining nodes or edges in a graph.
 
 **Example:** We can apply merge rules to unify duplicate customer nodes in a retail graph.
 
