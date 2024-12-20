@@ -1,5 +1,7 @@
 # Graph Data Modeling with AI
 
+![Banner image of AI graph](./img/banner.png)
+
 Welcome to our website for Graph Data Modeling with AI.
 
 This course is designed as a 10 to 14-week course for undergraduate
