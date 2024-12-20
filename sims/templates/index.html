@@ -12,13 +12,13 @@
         <meta name="author" content="Dan McCreary">
       
       
-        <link rel="canonical" href="https://dmccreary.github.io/graph-data-modeling-course/chapters/11-entity-resolution/">
+        <link rel="canonical" href="https://dmccreary.github.io/graph-data-modeling-course/sims/templates/">
       
       
-        <link rel="prev" href="../10-modeling-healthcare/">
+        <link rel="prev" href="../customer-graph/">
       
       
-        <link rel="next" href="../12-digital-twins/">
+        <link rel="next" href="../../glossary/">
       
       
       <link rel="icon" href="../../img/favicon.ico">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Chapter 11: Entity Resolution - Graph Data Modeling</title>
+        <title>Templates - Graph Data Modeling</title>
       
     
     
@@ -73,11 +73,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Chapter 11: Entity Resolution - Graph Data Modeling" >
+        <meta  property="og:title"  content="Templates - Graph Data Modeling" >
       
         <meta  property="og:description"  content="An undergraduate college-level course on graph data modeling with AI. All content licensed Creative Commons ShareAlike Attribution Noncommercial" >
       
-        <meta  property="og:image"  content="https://dmccreary.github.io/graph-data-modeling-course/assets/images/social/chapters/11-entity-resolution/index.png" >
+        <meta  property="og:image"  content="https://dmccreary.github.io/graph-data-modeling-course/assets/images/social/sims/templates/index.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -85,15 +85,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://dmccreary.github.io/graph-data-modeling-course/chapters/11-entity-resolution/" >
+        <meta  property="og:url"  content="https://dmccreary.github.io/graph-data-modeling-course/sims/templates/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Chapter 11: Entity Resolution - Graph Data Modeling" >
+        <meta  name="twitter:title"  content="Templates - Graph Data Modeling" >
       
         <meta  name="twitter:description"  content="An undergraduate college-level course on graph data modeling with AI. All content licensed Creative Commons ShareAlike Attribution Noncommercial" >
       
-        <meta  name="twitter:image"  content="https://dmccreary.github.io/graph-data-modeling-course/assets/images/social/chapters/11-entity-resolution/index.png" >
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/graph-data-modeling-course/assets/images/social/sims/templates/index.png" >
       
     
     
@@ -114,7 +114,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#chapter-11-entity-resolution" class="md-skip">
+        <a href="#graph-data-modeling-course-templates" class="md-skip">
           Skip to content
         </a>
       
@@ -149,7 +149,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Chapter 11: Entity Resolution
+              Templates
             
           </span>
         </div>
@@ -302,849 +302,150 @@
       
   
   
-    
   
   
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
   
-    
-    
+  
+    <a href="../../chapters/" class="md-nav__link">
       
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-    
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
-        
-          
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
-              
   
   <span class="md-ellipsis">
     Chapters
   </span>
   
 
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Chapters
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../01-introduction/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 1: Introduction to Graph Data Modeling
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../02-concepts/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 2: Graph Data Modeling Concepts
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../03-modeling-customers/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 3: Modeling Customers
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../04-modeling-products/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 4: Modeling Products
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../05-modeling-space/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 5: Modeling Space
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../06-modeling-time/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 6: Modeling Time
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../07-modeling-concepts/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 7: Modeling Concepts
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../08-modeling-language/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 8: Modeling Language
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../09-modeling-fraud/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 9: Modeling Fraud and Investigations
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../10-modeling-healthcare/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 10: Modeling Healthcare
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+        <span class="md-nav__icon md-icon"></span>
       
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Chapter 11: Entity Resolution
-  </span>
+    </a>
   
 
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 11: Entity Resolution
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#the-challenges-of-connecting-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Challenges of Connecting Data
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#counting-identical-attribute" class="md-nav__link">
-    <span class="md-ellipsis">
-      Counting Identical Attribute
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#finding-similar-attributes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Finding Similar Attributes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Finding Similar Attributes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#case-study-soundex" class="md-nav__link">
-    <span class="md-ellipsis">
-      Case Study: SoundEx
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#case-study-nicknames" class="md-nav__link">
-    <span class="md-ellipsis">
-      Case Study: Nicknames
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-similarity" class="md-nav__link">
-    <span class="md-ellipsis">
-      Using Similarity
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Using Similarity">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#case-study-embeddings-and-vector-stores" class="md-nav__link">
-    <span class="md-ellipsis">
-      Case Study: Embeddings and Vector Stores
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../12-digital-twins/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 12: Digital Twins
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../13-modeling-scenes/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 13: Modeling Scenes
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../14-modeling-rules/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 14: Modeling Business Rules
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../15-modeling-code/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 15: Modeling Code
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../16-modeling-security-threats/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 16: Modeling Security Threats
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../17-modeling-processes/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 17: Modeling Business Processes
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../18-modeling-learning/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 18: Modeling Learning
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../19-modeling-causality/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 19: Modeling Causality
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../20-modeling-linage/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 20: Modeling Linage
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../21-metadata-modeling/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 21: Modeling Metadata
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../22-modeling-supply-chains/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 22: Modeling Supply Chains
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../23-bitemporal-modeling/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 23: Bitemporal Modeling
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../24-advanced-topics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 24: Advanced Topics
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../25-model-evolution/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 25: Model Evolution
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../26-brain/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 26: Modeling Intelligence: The Brain and Reference Frames
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../27-ai-futures/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chapter 27: AI and the Future of World Models
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -1211,6 +512,8 @@
       
   
   
+    
+  
   
   
     
@@ -1236,29 +539,165 @@
     
     
       
-        
-        
-      
     
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
-  
-  
-    <a href="../../sims/" class="md-nav__link">
-      
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     Sims
   </span>
   
 
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Sims
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learning-graph/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
   
 
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customer-graph/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customer Graph
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Templates
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Templates
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-simple-social-network" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Simple Social Network
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customer-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      Customer Graph
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -1411,77 +850,20 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#the-challenges-of-connecting-data" class="md-nav__link">
+  <a href="#the-simple-social-network" class="md-nav__link">
     <span class="md-ellipsis">
-      The Challenges of Connecting Data
+      The Simple Social Network
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#counting-identical-attribute" class="md-nav__link">
+  <a href="#customer-graph" class="md-nav__link">
     <span class="md-ellipsis">
-      Counting Identical Attribute
+      Customer Graph
     </span>
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#finding-similar-attributes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Finding Similar Attributes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Finding Similar Attributes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#case-study-soundex" class="md-nav__link">
-    <span class="md-ellipsis">
-      Case Study: SoundEx
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#case-study-nicknames" class="md-nav__link">
-    <span class="md-ellipsis">
-      Case Study: Nicknames
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-similarity" class="md-nav__link">
-    <span class="md-ellipsis">
-      Using Similarity
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Using Similarity">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#case-study-embeddings-and-vector-stores" class="md-nav__link">
-    <span class="md-ellipsis">
-      Case Study: Embeddings and Vector Stores
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1500,7 +882,7 @@
                   
 
   
-    <a href="https://github.com/dmccreary/graph-data-modeling-course/blob/master/docs/chapters/11-entity-resolution/index.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/dmccreary/graph-data-modeling-course/blob/master/docs/sims/templates/index.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -1508,14 +890,31 @@
   
 
 
-<h1 id="chapter-11-entity-resolution">Chapter 11: Entity Resolution</h1>
-<h2 id="the-challenges-of-connecting-data">The Challenges of Connecting Data</h2>
-<h2 id="counting-identical-attribute">Counting Identical Attribute</h2>
-<h2 id="finding-similar-attributes">Finding Similar Attributes</h2>
-<h3 id="case-study-soundex">Case Study: SoundEx</h3>
-<h3 id="case-study-nicknames">Case Study: Nicknames</h3>
-<h2 id="using-similarity">Using Similarity</h2>
-<h3 id="case-study-embeddings-and-vector-stores">Case Study: Embeddings and Vector Stores</h3>
+<h1 id="graph-data-modeling-course-templates">Graph Data Modeling Course Templates</h1>
+<h2 id="the-simple-social-network">The Simple Social Network</h2>
+<div class="admonition prompt">
+<p class="admonition-title">Prompt</p>
+<p>Create a vis.js template of a social network.
+Nodes: Person
+Edges: KNOWS (connects Person to Person)</p>
+</div>
+<p><a href="social-network-template.html">Social Network</a></p>
+<p>Note that this version zooms into the person with a scale of 6.</p>
+<h2 id="customer-graph">Customer Graph</h2>
+<p>``` prompt
+    Please modify the template program to generate a customer graph.  Here are the key nodes:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code>Customer - an individual person that purchases a product
+OnlineOrder - a transaction where they purchase one or more products
+Product - a product that is purchased in an OnlineOrder
+
+Please add the relationships between these nodes and give them a uppercase label and title that describes the relationships.
+</code></pre></div></td></tr></table></div>
+<p><a href="customer-simple-template.html">Customer Model</a></p>
+<p><a href="weborder-template.html">Weborder Template</a></p>
 
 
 
@@ -1556,7 +955,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../10-modeling-healthcare/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Chapter 10: Modeling Healthcare">
+          <a href="../customer-graph/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Customer Graph">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1566,20 +965,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Chapter 10: Modeling Healthcare
+                Customer Graph
               </div>
             </div>
           </a>
         
         
           
-          <a href="../12-digital-twins/" class="md-footer__link md-footer__link--next" aria-label="Next: Chapter 12: Digital Twins">
+          <a href="../../glossary/" class="md-footer__link md-footer__link--next" aria-label="Next: Glossary">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Chapter 12: Digital Twins
+                Glossary
               </div>
             </div>
             <div class="md-footer__button md-icon">
