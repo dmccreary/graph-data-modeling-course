@@ -19,3 +19,7 @@ Replace: ^A \*\*(.+?)\*\* is a
 With: A
 
 (.+?) refers to
+
+## Finding Glossary Entries that are Plural
+
+\b\w+s\n

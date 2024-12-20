@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer Graph</title>
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <style type="text/css">
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #network {
+      width: 100%;
+      height: 800px;
+      border: 1px solid lightgray;
+      background-color: aliceblue;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Customer Graph</h2>
+<div id="network"></div>
+
+<script type="text/javascript">
+  // Define nodes
+  var nodes = new vis.DataSet([
+    {id: 1, label: "Customer", title: "An individual person that purchases a product", x:-100, y:0},
+    {id: 2, label: "OnlineOrder", title: "A transaction where a customer purchases one or more products", x:0, y:0},
+    {id: 3, label: "Product", title: "A product that is purchased in an OnlineOrder", x: 100, y:0}
+  ]);
+
+  // Define edges
+  var edges = new vis.DataSet([
+    {from: 1, to: 2, label: "PLACED", title: "Customer placed an OnlineOrder"},
+    {from: 2, to: 3, label: "CONTAINS", title: "OnlineOrder contains a Product"}
+    // this can be inferred {from: 3, to: 1, label: "PURCHASED_BY", title: "Product is purchased by Customer"}
+  ]);
+
+  // Create a network
+  var container = document.getElementById('network');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    layout: {
+      improvedLayout: true
+    },
+    interaction: {
+      hover: true
+    },
+    nodes: {
+      shape: 'dot',
+      size: 16,
+      font: {
+        size: 14,
+        color: '#000'
+      },
+      borderWidth: 2
+    },
+    edges: {
+      width: 2,
+      arrows: {
+        to: {enabled: true, scaleFactor: 1.2}
+      },
+      smooth: {
+        type: 'cubicBezier',
+        forceDirection: 'horizontal',
+        roundness: 0.4
+      },
+      font: {
+        align: 'middle',
+        size: 10,
+        color: '#007700',
+        strokeWidth: 0
+      }
+    },
+    physics: {
+      enabled: true,
+      barnesHut: {
+        gravitationalConstant: -25000,
+        centralGravity: 0.3,
+        springLength: 95,
+        springConstant: 0.04,
+        damping: 0.09,
+        avoidOverlap: 0.1
+      },
+      stabilization: {
+        iterations: 200
+      }
+    }
+  };
+
+  var network = new vis.Network(container, data, options);
+
+  // Zoom in on the node to fill the canvas
+  network.once('stabilizationIterationsDone', function () {
+    network.moveTo({
+      position: {x: 0, y: 0}, // Center position of the node
+      scale: 2, // Adjust zoom level to make the node fill more of the canvas
+      animation: {
+        duration: 1000,
+        easingFunction: 'easeInOutQuad'
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
+

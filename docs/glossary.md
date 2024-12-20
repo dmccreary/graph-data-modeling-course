@@ -18,51 +18,68 @@ A specific type of location node that represents a postal or physical address.
 
 **Example:** In a logistics graph, students use address nodes to represent delivery locations.
 
-#### Autonomous Vehicles
+#### Autonomous Vehicle Graph
 
-**Autonomous Vehicles** use graph-based models to analyze and navigate their environment.
+The use of graph-based models to allow vehicles analyze and navigate their environment based on sensor data.
 
 **Example:** We can build a graph for an autonomous vehicle system, linking road segments, intersections, and traffic signals.
 
-#### Broader Concepts
+#### Bayesian Network Analysis
 
-**Broader Concepts** refer to higher-level ideas that encompass more specific concepts in a hierarchy.
+A statistical method that applies Bayes' theorem to update the probability of a hypothesis as more evidence becomes available, using a directed acyclic graph to model variables and their probabilistic dependencies.
+
+**Example:** In Bayesian Network Analysis, a network might represent medical diagnoses, where nodes are symptoms and diseases, and edges represent conditional probabilities. For instance, given the presence of a symptom (evidence), the network can update the likelihood of a specific disease.
+
+#### Bitemporal
+
+The process of modeling two dimensions of time included real-world time and system-recorded time.
+
+Bitemporal graphs are frequently used in high-stakes regulated environments that require reports to be run that exactly recrate a report run in the past.
+
+**Example:** A physical makes a diagnosis based on inaccurate blood tests.  A bitemporal graph must be able to roll back corrections to show the state of the chart when the physician made the diagnosis.
+
+#### Broader Concept
+
+Higher-level ideas that encompass more specific concepts in a hierarchy.
 
 **Example:** We can define "Mathematics" as a broader concept for "Algebra" and "Geometry" in a graph.
 
-#### Building Models
+#### Building Model
 
-**Building Models** is the process of designing and implementing graph-based representations of real-world systems.
+The process of designing and implementing graph-based representations of real-world buildings that include real-time sensor data to predict how factors such as sunlight and external heat will predict the need for heating and cooling services.
 
-**Example:** We can build a graph model of a healthcare system to visualize patient-to-doctor relationships.
+**Example:** We can build a graph model of a large building to visualize the airflow within a building.
 
 #### Call Graph
 
-A **Call Graph** represents function or method calls in a program, modeled as a directed graph.
+A graph representation of function or method calls in a program, modeled as a directed graph.
 
-**Example:** We can call graph to identify critical functions and optimize performance in a program.
+**Example:** We can call graph to identify dependencies of critical bugs in software
+and understand what client modules will be impacted by a new bug.
 
 #### Catalog Graph
 
-A **Catalog Graph** models a product catalog as a graph, with nodes for items and edges representing relationships.
+Graph models of product catalog as a graph, with nodes for items and edges representing relationships between products.
 
 **Example:** We can build a catalog graph to visualize how products are related through accessories or upgrades.
 
 #### Causal Graph
 
-A **Causal Graph** models cause-and-effect relationships between entities or events.
+A graph models that show the cause-and-effect relationships between entities or events.
 
 **Example:** We can use a causal graph to explore factors contributing to delays in a project timeline.
 
 #### City Graph
 
-A **City Graph** models the infrastructure and relationships within a city, including locations, roads, and services.
+A graph that models the infrastructure and relationships within a city, including locations, roads, and services.
+
+Examples of nodes in a city graph include businesses, food banks, homeless shelters, stoplights, utility poles, fire extinguishers and emergency service locations such as firehouses.
 
 **Example:** We can create a city graph to simulate traffic flow and optimize transportation routes.
 
-#### Code Graphs
+#### Code Graph
 
-**Code Graphs** represent relationships within codebases, such as function calls, dependencies, or module structures.
+A graph representation of the relationships within a software codebases, such as function calls, dependencies, or module structures.
 
 **Example:** We can create a graph to analyze dependencies in a software project, linking classes and methods.
 
@@ -78,7 +95,7 @@ A prerequisite relationship where one concept depends on other concepts.
 
 **Example:** We can create a dependency graph showing that "Basic Math" must precede "Calculus."
 
-#### Concept Hierarchies
+#### Concept Hierarchy
 
 A layered structure that organizes concepts by specificity, from general to specific.
 
@@ -99,9 +116,11 @@ Recommender systems use similarity to find similar nodes in a graph.
 **Examples:** A movie can be represented as a node in a graph.  A recommendation
 system can answer the question "If you liked this movie, this other movie might be of interest to you.  A course project involves building a graph-based recommender to suggest topics like "Graph Traversal" after "Graph Basics."
 
-#### Concept Schemas
+#### Concept Schema
 
 A structured representation of concepts and their interrelations, often used in semantic graphs.
+
+Concept Schemas are simple and can be represented by a single ```Concept`` node with a reflexive "DEPENDS" relationship to itself.
 
 **Example:** We can design a concept schema for a library system with concepts like "Book," "Author," and "Genre."
 
@@ -415,11 +434,13 @@ are always consistent even if a server crashes in the middle of a transaction.
 
 **Example:** We can model a corporate hierarchy where managers are parents of employee nodes.
 
-#### Historical Graphs
+#### Historical Graph
 
-Graphs preserve past states of a graph to analyze trends or changes over time.
+Graphs that preserve past states of a graph to analyze trends or changes over time.
 
 **Example:** We can analyze a historical graph to track changes in a social network's structure over the past decade.
+
+* See also: [bitemporal](#bitemporal)
 
 #### Hyperedges
 
@@ -704,6 +725,12 @@ A **Property** is an attribute or characteristic associated with a node or edge,
 
 **Example:** A student assigns a property "published\_year" to an edge between an "Author" node and a "Book" node.
 
+#### Reflexive Edge
+
+An edge in a graph where the starting and ending nodes are the same, representing a relationship or property that a node has with itself.
+
+**Example:** In a social network graph, a reflexive edge might represent a person liking their own post or assigning a task to themselves.
+
 #### Road Network
 
 A **Road Network** graph represents roads as edges and intersections as nodes to model transportation systems.
@@ -789,6 +816,12 @@ A shared property between nodes or edges, often used for grouping or matching.
 **Similarity Metrics** quantify how similar two nodes or subgraphs are, often using embeddings or graph structure.
 
 **Example:** We can calculate the similarity between two customer profiles in a marketing graph.
+
+#### Social Graph
+
+A representation of social relationships and interactions among individuals or entities, where nodes represent users or groups, and edges represent relationships such as friendships, followers, or communication links.
+
+**Example:** In a social graph for an online platform, nodes could represent users, and edges could denote "friend" or "follower" connections, enabling analysis of community structures and influence patterns.
 
 #### State Graph
 

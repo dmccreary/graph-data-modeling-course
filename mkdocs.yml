@@ -50,6 +50,7 @@ nav:
     - List of Sims: sims/index.md
     - Learning Graph: sims/learning-graph/index.md
     - Customer Graph: sims/customer-graph/index.md
+    - Templates: sims/templates/index.md
   - Glossary: glossary.md
   - license.md
   - Feedback: feedback.md
