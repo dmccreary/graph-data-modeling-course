@@ -444,7 +444,9 @@ Graphs that preserve past states of a graph to analyze trends or changes over ti
 
 #### Hyperedges
 
-A **Hyperedge** connects more than two nodes, representing a multi-way relationship in a graph.
+An edge that connects more than two nodes, representing a multi-way relationship in a graph.
+
+In the LPG model we use nodes to connect more than two edges.
 
 **Example:** In a course project, students use hyperedges to model transactions involving multiple participants.
 
@@ -630,6 +632,8 @@ ChatGPT
 A field of artificial intelligence that focuses on the interaction between computers and human languages, enabling machines to understand, interpret, and generate human language through techniques such as tokenization, parsing, and semantic analysis.
 
 **Example:** In a graph-based NLP module, students build a graph where nodes represent sentences, and edges connect phrases with semantic relationships derived from dependency parsing.#### Node
+
+#### Node
 
 A fundamental element in a graph that represents an entity or object, such as a person, place, or concept.
 
