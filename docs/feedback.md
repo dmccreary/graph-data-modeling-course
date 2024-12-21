@@ -1,6 +1,10 @@
-# Feedback on Graph Data Modeling
+# Feedback on Graph Data Modeling and Open Intelligent Textbooks
 
-You are welcome to connect with me on anytime on [LinkedIn](https://www.linkedin.com/in/danmccreary/) or submit any issues to [GitHub Issue Log](https://github.com/dmccreary/graph-data-modeling-course/issues).  All pull-requests with
-fixes to errors or additions are always welcome.
+Our online textbook depend on continuous feedback to improve.
 
-If you would like to fill out a short [survey](https://forms.gle/iDKm39J5Bgvmxket8) and give us ideas on how we can create better tools for intelligent textbooks in the future.
+1. First, you are encouraged to connect with me on anytime on [LinkedIn](https://www.linkedin.com/in/danmccreary/)
+and join our [AI Learning Management Systems LinkedIn Group](https://www.linkedin.com/groups/14503027/). 
+
+2. Please feel free to submit any issues to our [GitHub Issue](https://github.com/dmccreary/graph-data-modeling-course/issues) system.  All pull-requests with fixes to errors or additions are always welcome.
+
+3. Please fill out a short [survey](https://forms.gle/iDKm39J5Bgvmxket8) and give us ideas on how we can create better tools for building Open Intelligent Textbooks in the future.
