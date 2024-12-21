@@ -6,7 +6,7 @@ Welcome to our website for Graph Data Modeling with AI.
 
 This course is designed as a 10 to 14-week course for undergraduate
 computer science students that are interested in graph data
-models and how they complement the limitations of [large-language models](./glossary.md#large-langauge-models) (LLMs).
+models and how they complement the limitations of [large-language models](./glossary.md#large-language-model) (LLMs).
 
 I first started using LLMs to generate educational content in [September of 2020](https://dmccreary.medium.com/using-al-to-generate-detailed-lesson-plans-29a5af200a6a).
 At the time, the 1.7 billion parameter GPT-3 was the the largest, most powerful

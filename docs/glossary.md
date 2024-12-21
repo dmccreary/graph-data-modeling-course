@@ -40,9 +40,13 @@ Bitemporal graphs are frequently used in high-stakes regulated environments that
 
 #### Broader Concept
 
-Higher-level ideas that encompass more specific concepts in a hierarchy.
+Higher-level ideas that encompass more general concepts in a hierarchy under which more specific terms (narrower) terms fall. 
 
 **Example:** We can define "Mathematics" as a broader concept for "Algebra" and "Geometry" in a graph.
+
+**Example:** In a glossary for graph modeling, "Graph" is a broader term for terms like "Directed Graph," "Undirected Graph," and "Weighted Graph," as these are specific types of graphs.
+
+* Also known as Hypernym
 
 #### Building Model
 
@@ -967,7 +971,7 @@ A **Word Node** represents a word in a graph, often used in linguistic or semant
 
 #### WordNet
 
-WordNet is a large lexical database of English that groups words into sets of synonyms ([synsets]) and defines relationships such as [hypernyms], [hyponyms], [meronyms], and [antonyms] to facilitate linguistic analysis and [natural language processing](#natural-langage-processing).
+WordNet is a large lexical database of English that groups words into sets of synonyms ([synsets]) and defines relationships such as [hypernyms], [hyponyms], [meronyms], and [antonyms] to facilitate linguistic analysis and [natural language processing](#natural-language-processing).
 
 **Example:** In a graph-based NLP course, students use WordNet to build a semantic graph where nodes represent words, and edges represent relationships like "is a type of" or "is a part of."
 
