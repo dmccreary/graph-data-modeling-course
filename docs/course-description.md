@@ -1,4 +1,4 @@
-# Course Description
+# Graph Data Modeling Course Description for the 
 
 This website contains material for a 14-week undergraduate course on graph data modeling.
 
@@ -7,9 +7,9 @@ of students can use this course for self-paced learning.  However, instructors
 make require students to have a basic understanding of datatypes typically taught
 in an undergraduate data structures course.  These datatypes include the use of strings, integers, floats, sets, lists, and arrays as datatypes use in attributes.
 
-**Course Title: Graph Data Modeling**
+**Course Title:** Graph Data Modeling
 
-## Course Description
+## Summary
 
 This course explores the foundational principles and advanced techniques of graph data modeling, to progressively develop students' skills in data modeling. Students will begin by understanding the fundamental concepts and terminology, then advance to applying graph modeling strategies across diverse domains, analyzing complex relationships, evaluating modeling trade-offs, and ultimately creating robust, domain-specific graph data models.
 
