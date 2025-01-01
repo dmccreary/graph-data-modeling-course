@@ -591,7 +591,7 @@
         
   
   <span class="md-ellipsis">
-    03 concept dependencies
+    Concept Enumeration
   </span>
   
 
@@ -696,26 +696,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prompt" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prompt
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Prompt">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#conceptname" class="md-nav__link">
     <span class="md-ellipsis">
       ConceptName
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -957,26 +942,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prompt" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prompt
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Prompt">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#conceptname" class="md-nav__link">
     <span class="md-ellipsis">
       ConceptName
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1022,9 +992,21 @@
 
 
 <h1 id="generating-a-glossary-from-a-concept-graph">Generating a Glossary from a Concept Graph</h1>
-<h2 id="prompt">Prompt</h2>
+<div class="admonition prompt">
+<p class="admonition-title">Prompt</p>
 <p>In this project, you will find a file called "graph-modeling.json".  It contains a concept graph for a course on Graph Data Modeling.  For each node in this JSON file, please generate an ISO definition and also give an example of its use within the course.  Do not repeat the concept name in the definition.</p>
-<p>Use the following format:</p>
+<p>Use the following format:
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="gu">#### Term Name</span>
+
+Definition text.
+
+<span class="gs">**Example:**</span> Example text.
+</code></pre></div></td></tr></table></div></p>
+</div>
 <h4 id="conceptname">ConceptName</h4>
 <p>Text of the definition of the concept in full English sentences.</p>
 <p><strong>Example:</strong> Text of example.</p>
