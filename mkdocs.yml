@@ -94,6 +94,8 @@ markdown_extensions:
       linenums: true
 extra_css:
    - css/extra.css
+extra_javascript:
+  - js/extra.js
 extra:
   analytics:
     provider: google
