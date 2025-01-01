@@ -1,10 +1,16 @@
 # Generating a Glossary from a Concept Graph
 
-## Prompt
+!!! prompt
+    In this project, you will find a file called "graph-modeling.json".  It contains a concept graph for a course on Graph Data Modeling.  For each node in this JSON file, please generate an ISO definition and also give an example of its use within the course.  Do not repeat the concept name in the definition.
 
-In this project, you will find a file called "graph-modeling.json".  It contains a concept graph for a course on Graph Data Modeling.  For each node in this JSON file, please generate an ISO definition and also give an example of its use within the course.  Do not repeat the concept name in the definition.
+    Use the following format:
+    ```markdown
+    #### Term Name
 
-Use the following format:
+    Definition text.
+
+    **Example:** Example text.
+    ```
 
 #### ConceptName
 

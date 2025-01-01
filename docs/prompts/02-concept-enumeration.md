@@ -1,7 +1,6 @@
 # Concept Enumeration
 
-## Prompt
-!!! prompt "Prompt Text"
+!!! prompt
     Next, please create an enumerated list of the 150 key Concepts in this course on graph data modeling.  The list should be ordered from the simplest introductory concepts such as foundational concepts and definitions to the most complex topics at the end of the list.
 
     For each Concept, return a sequential ID and a ConceptLabel.

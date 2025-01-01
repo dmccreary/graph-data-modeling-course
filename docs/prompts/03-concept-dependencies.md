@@ -1,31 +1,34 @@
-Now, let's just focus on these 150 concepts.
-Please create a fully connected concept dependency graph
-for the 150 concepts in this course.
-In this step, for each Concept on this list below, create
-single line is a CSV file that list the other concepts on which it depends.  
-If a concept depends on a specific concept that is not listed,
-then we will need to add it to the end of the list as a new concept.
-This will help us determine the teaching order of the Concepts.
+# Concept Enumeration
 
-Return the new list as a CSV file using the following format:
+!!! prompt
+    Now, let's just focus on these 150 concepts.
+    Please create a fully connected concept dependency graph
+    for the 150 concepts in this course.
+    In this step, for each Concept on this list below, create
+    single line is a CSV file that list the other concepts on which it depends.  
+    If a concept depends on a specific concept that is not listed,
+    then we will need to add it to the end of the list as a new concept.
+    This will help us determine the teaching order of the Concepts.
 
-1. The first column in the CSV file is a numeric ConceptID you assigned in the list above.
-2. The second column is the ConceptLabel.
-3. The third column is a pipe-delimited list of the ConceptIDs that the concept depends upon.
+    Return the new list as a CSV file using the following format:
 
-For example, the concept of a Dependency Graph depends on knowledge of nodes and edges:
+    1. The first column in the CSV file is a numeric ConceptID you assigned in the list above.
+    2. The second column is the ConceptLabel.
+    3. The third column is a pipe-delimited list of the ConceptIDs that the concept depends upon.
 
-1,Graph Data Model
-2,Node
-3,Edge
-4,Property
-5,Path
-6,Dependency Graph,2|3
+    For example, the concept of a Dependency Graph depends on knowledge of nodes and edges:
 
-Check your results to make sure that all concepts are connected to at least one other concept unless they are a foundational concept like Graph Data Model, Node, Edge, Property or Path.
+    1,Graph Data Model
+    2,Node
+    3,Edge
+    4,Property
+    5,Path
+    6,Dependency Graph,2|3
 
-Foundation Concepts are concepts that have no dependant concepts in this set.  
-They have an empty third column.
+    Check your results to make sure that all concepts are connected to at least one other concept unless they are a foundational concept like Graph Data Model, Node, Edge, Property or Path.
+
+    Foundation Concepts are concepts that have no dependant concepts in this set.  
+    They have an empty third column.
 
 ## Response
 
