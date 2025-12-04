@@ -1,0 +1,42 @@
+{
+  "title": "Learning Graph for Graph Data Modeling Course",
+  "description": "Interactive visualization of 150 core graph data modeling concepts and their prerequisite dependencies. Uses force-directed layout to show concept relationships from foundational topics to advanced goals.",
+  "creator": "Dan McCreary",
+  "date": "2024-11-19",
+  "subject": [
+    "Graph Data Modeling",
+    "Learning Graph",
+    "Concept Dependencies",
+    "Knowledge Visualization",
+    "Educational Technology"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "https://dmccreary.github.io/graph-data-modeling-course/sims/learning-graph/",
+  "publisher": "Dan McCreary",
+  "educationalLevel": "Undergraduate",
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators, Data Scientists",
+  "version": "1.0.0",
+  "bloomLevel": [
+    "Remember",
+    "Understand",
+    "Analyze"
+  ],
+  "concepts": [
+    "Graph Theory",
+    "Nodes and Edges",
+    "Property Graphs",
+    "Knowledge Graphs",
+    "Schema Design",
+    "Data Modeling",
+    "Prerequisite Learning"
+  ],
+  "prerequisites": [
+    "Basic Database Concepts",
+    "Data Structures"
+  ],
+  "library": "vis-network"
+}
