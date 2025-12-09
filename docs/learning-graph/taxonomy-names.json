@@ -1,0 +1,14 @@
+{
+  "FOUND": "Foundation Concepts",
+  "KNOWL": "Knowledge Representation",
+  "CUST": "Customer Domain",
+  "PROD": "Product Domain",
+  "SPACE": "Spatial Modeling",
+  "TIME": "Temporal Modeling",
+  "LANG": "Language and NLP",
+  "HEALTH": "Healthcare Domain",
+  "SECUR": "Security and Rules",
+  "PROC": "Process and Events",
+  "ADV": "Advanced Analytics",
+  "AIML": "Future and AI"
+}

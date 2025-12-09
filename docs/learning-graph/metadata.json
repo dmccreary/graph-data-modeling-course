@@ -1,0 +1,10 @@
+{
+  "title": "Graph Data Modeling",
+  "description": "A 14-week undergraduate course exploring the foundational principles and advanced techniques of graph data modeling. Students learn to model customers, products, space, time, concepts, language, and specialized domains including healthcare, fraud detection, and supply chains using AI-assisted approaches.",
+  "creator": "Dan McCreary",
+  "date": "2025-12-09",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}

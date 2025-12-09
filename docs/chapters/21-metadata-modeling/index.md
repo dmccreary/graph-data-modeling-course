@@ -1,15 +1,26 @@
-# Chapter 21: Modeling Metadata
+# Metadata Modeling
 
-## What is Metadata?
+## Summary
 
-## Data Governance
+This chapter covers how to model metadata in graphs for data governance and management. We explore metadata definitions, data governance structures, stewardship, domains, and how graphs enable schema matching and data mapping.
 
-## Data Stewards
+## Concepts Covered
 
-## Domains
+1. Metadata Definition
+2. Data Governance
+3. Data Stewards
+4. Data Domains
+5. Data Matching
+6. Schema Matching
+7. Data Mapping
 
-## Data Matching
+## Learning Objectives
 
-### Schema Matching
+By the end of this chapter, students will be able to:
 
-## Data Mapping
+- Define metadata and its role in data governance
+- Model governance structures with stewards and domains
+- Design data domain hierarchies in graphs
+- Implement schema matching algorithms
+- Build data mapping relationships between systems
+- Connect metadata to operational data models

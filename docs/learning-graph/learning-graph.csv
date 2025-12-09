@@ -1,0 +1,260 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Graph Data Model,,FOUND
+2,World Models,1,FOUND
+3,GraphRAG Pattern,1|2,FOUND
+4,Vector Stores,1,FOUND
+5,Semantic Indexes,4,FOUND
+6,Real-Time Systems,1|2,FOUND
+7,Knowledge Triangle,1,FOUND
+8,Data Layer,7,FOUND
+9,Information Layer,7|8,FOUND
+10,Knowledge Layer,7|9,FOUND
+11,Sensor Data,8,FOUND
+12,Page Rank Algorithm,1|19|20,FOUND
+13,Relational Models,1,FOUND
+14,Analytical Models,13,FOUND
+15,Key-Value Stores,1,FOUND
+16,Document Models,1,FOUND
+17,ISO GQL Standard,1|19|20,FOUND
+18,Graph and LLM Integration,1|3|4,FOUND
+19,Nodes,1,FOUND
+20,Edges,1|19,FOUND
+21,Properties,19|20,FOUND
+22,Simple Data Types,21,FOUND
+23,Complex Data Types,21|22,FOUND
+24,Paths,19|20,FOUND
+25,Dependencies,19|20|24,FOUND
+26,Graph Quality,1|19|20|21,FOUND
+27,Quality Measures,26,FOUND
+28,Graph Constraints,26|27,FOUND
+29,Quality Assertions,26|28,FOUND
+30,Quality Scores,27|29,FOUND
+31,Quality Dashboards,30,FOUND
+32,Customer Definition,19|21,CUST
+33,Individual Customers,32,CUST
+34,Customer Locations,32|33,CUST
+35,Customer Addresses,34,CUST
+36,Household Modeling,33|20,CUST
+37,Family Relationships,36|20,CUST
+38,Corporate Customers,32,CUST
+39,Organization Customers,32|38,CUST
+40,License Modeling,32|21,CUST
+41,Abuse Detection,32|20|24,CUST
+42,IP Address Tracking,41|21,CUST
+43,Product Lists,19|21,PROD
+44,Product Groupings,43|20,PROD
+45,Product Taxonomies,43|44,PROD
+46,Multiple Taxonomies,45,PROD
+47,Classification Tools,45|46,PROD
+48,Product Similarity,43|4,PROD
+49,Product Embeddings,48|4,PROD
+50,Product Metadata,43|21,PROD
+51,Spatial Challenges,1,SPACE
+52,Location Modeling,19|21|51,SPACE
+53,Longitude and Latitude,52,SPACE
+54,Distance Calculations,53,SPACE
+55,Address Modeling,52|35,SPACE
+56,City/County/State Model,52|20,SPACE
+57,Metropolitan Regions,56,SPACE
+58,Sales Regions,56|57,SPACE
+59,Urban/Rural Regions,56,SPACE
+60,Social Determinants,59,SPACE
+61,Road Modeling,52|20|24,SPACE
+62,Shortest Path,61|24|54,SPACE
+63,Traveling Salesperson,62,SPACE
+64,Bus Routes,61|62,SPACE
+65,Provider Distance,54|61,SPACE
+66,Geospatial Models,52|53|54|61,SPACE
+67,DateTime Structure,21,TIME
+68,Time Trees,19|20|67,TIME
+69,Year/Month/Day Hierarchy,68,TIME
+70,Hour/Minute/Second,69,TIME
+71,Millisecond Precision,70,TIME
+72,Financial Time,67|68,TIME
+73,Organization Calendar,68|72,TIME
+74,Time Exceptions,67|68,TIME
+75,Daylight Savings Time,74,TIME
+76,Knowledge Graphs,1|10|19|20,KNOWL
+77,The Semantic Spectrum,76,KNOWL
+78,SKOS Standard,76|77,KNOWL
+79,SKOS in LPG,78|19|20,KNOWL
+80,Acronyms and Abbreviations,76|21,KNOWL
+81,Business Glossaries,76|78,KNOWL
+82,Taxonomies,76|78|45,KNOWL
+83,Ontologies,76|82,KNOWL
+84,Concept Nodes,19|76,KNOWL
+85,Concept Labels,84|21,KNOWL
+86,Preferred Labels,85,KNOWL
+87,Alternate Labels,85|86,KNOWL
+88,Broader/Narrower,84|20,KNOWL
+89,Semantic Variability,76|87,KNOWL
+90,Concept Schemas,76|83,KNOWL
+91,GraphRAG Challenges,3|76,KNOWL
+92,Language in Graphs,76|19|20,LANG
+93,Words in Graphs,92,LANG
+94,WordNet,93,LANG
+95,NLP Basics,92|93,LANG
+96,Entity Extraction,95,LANG
+97,Sentence Modeling,93|95,LANG
+98,Paragraph Modeling,97,LANG
+99,Document Modeling,98,LANG
+100,Document Pipelines,99|96,LANG
+101,Synonyms,93|94,LANG
+102,Synonym Rings,101,LANG
+103,Antonyms,93|94,LANG
+104,Fraud/Waste/Abuse,1|20|24,HEALTH
+105,Anti-Money Laundering,104,HEALTH
+106,Unusual Relationships,104|20|24,HEALTH
+107,Investigations,104|106,HEALTH
+108,Patient Modeling,32|19|21,HEALTH
+109,Clinical Data,108|21,HEALTH
+110,Claims,108|109,HEALTH
+111,Providers,108|19,HEALTH
+112,Population Health,108|20,HEALTH
+113,Disease Spread,112|20|24,HEALTH
+114,Benefit Plans,108|21,HEALTH
+115,Plan Coverage,114,HEALTH
+116,Healthcare Costs,110|115,HEALTH
+117,Value-Based Care,116,HEALTH
+118,Patient Similarity,108|4|48,HEALTH
+119,Care Paths,108|24,HEALTH
+120,FHIR,108|109,HEALTH
+121,Clinical Decision Support,120|119,HEALTH
+122,Modeling Healthcare Knowledge,76|108,HEALTH
+123,FHIR Approach,120,HEALTH
+124,FHIR Four Level Model,123,HEALTH
+125,L1: Narrative,124,HEALTH
+126,L2: Semi-Structures,124|125,HEALTH
+127,L3: Structure,124|126,HEALTH
+128,L4: Executable,124|127,HEALTH
+129,Clinical Quality Language,128|121,HEALTH
+130,Data Connection,19|20,ADV
+131,Identical Attributes,130|21,ADV
+132,Similar Attributes,131,ADV
+133,SoundEx Algorithm,132,ADV
+134,Nickname Matching,132|133,ADV
+135,Similarity Metrics,132,ADV
+136,Embeddings,4|135,ADV
+137,Vector Stores ER,136|4,ADV
+138,Graph Advantage for ER,130|137,ADV
+139,Digital Twins,1|2|19|20,ADV
+140,Building Models,139|52,ADV
+141,Manufacturing Models,139|43,ADV
+142,Supply Chain Models,139|43|52,ADV
+143,Real-time Updates,139|6,ADV
+144,Graph Advantages DT,139|143,ADV
+145,Scene Graphs,19|20|52,ADV
+146,Pixel Classification,145,ADV
+147,Movement Prediction,145|146,ADV
+148,Autonomous Vehicles,145|147|61,ADV
+149,Robotics Applications,145|147,ADV
+150,Rule Engines,1,SECUR
+151,Context Transfer Challenge,150,SECUR
+152,In-Graph Rules,150|19|20,SECUR
+153,Rules and Workflows,150|152,SECUR
+154,Rule Modeling,150|152,SECUR
+155,BPMN Notation,153|154,SECUR
+156,Decision Trees,150|154,SECUR
+157,Validation Rules,150|28,SECUR
+158,Data Mining,1|24,SECUR
+159,Process Mining,158|153,SECUR
+160,Rule Execution,150|152,SECUR
+161,Rule Exchange,154|160,SECUR
+162,Performance Advantage,150|152|160,SECUR
+163,Code Graphs,19|20|24,SECUR
+164,Nodes as Functions,163|19,SECUR
+165,Edges as Dependencies,163|20|25,SECUR
+166,Directed Graphs,20,SECUR
+167,Undirected Graphs,20|166,SECUR
+168,Weighted Edges,20|21,SECUR
+169,Call Graphs,163|164|165,SECUR
+170,Dead Code Detection,169,SECUR
+171,Recursive Functions,169,SECUR
+172,Circular Dependencies,169|25,SECUR
+173,Text Coverage Graphs,163|99,SECUR
+174,Test-Code Mapping,173,SECUR
+175,Hybrid Graphs,163|169|173,SECUR
+176,Cyclomatic Complexity,169,SECUR
+177,Code Churn,163|68,SECUR
+178,Code Hotspots,169|176,SECUR
+179,Static Analysis,163|169,SECUR
+180,Dynamic Analysis,163|169,SECUR
+181,CI/CD Integration,163|179|180,SECUR
+182,Server Modeling,19|21,SECUR
+183,Network Modeling,19|20|182,SECUR
+184,Threat Modeling,183|19|20,SECUR
+185,Threat Prioritization,184,SECUR
+186,Vulnerability Assessment,184|185,SECUR
+187,Person Roles,19|21,SECUR
+188,Role-Based Access Control,187|20,SECUR
+189,RBAC and Performance,188,SECUR
+190,Monitoring Agents,183|184,SECUR
+191,Event Modeling,19|20|67,PROC
+192,Event Mining,191|158,PROC
+193,Events and Workflows,191|153,PROC
+194,Event Logs,191,PROC
+195,Event Dashboards,194|31,PROC
+196,Learning Graphs,76|19|20|25,PROC
+197,Concept Dependencies,196|25,PROC
+198,Concept Models,196|84,PROC
+199,Content Models,196|99,PROC
+200,Learning Paths,196|24|197,PROC
+201,Path Recommendations,200,PROC
+202,Content Recommendations,199|201,PROC
+203,Intelligent Textbooks,196|202,PROC
+204,Correlation vs Causation,1,ADV
+205,Causal Graphs,204|19|20,ADV
+206,Systems Thinking,204|205,ADV
+207,Causality Data Flows,205|24,ADV
+208,Causal Loop Diagrams,205|206,ADV
+209,Consumer Preference Models,205|32,ADV
+210,Bayesian Network Analysis,205|166,ADV
+211,Lineage and Provenance,1|19|20,ADV
+212,Entity Definition,211|19,ADV
+213,Activity Definition,211|191,ADV
+214,Agent Definition,211|187,ADV
+215,DM-Prov Model,211|212|213|214,ADV
+216,W3C Provenance,215,ADV
+217,Metadata Definition,1|21,ADV
+218,Data Governance,217,ADV
+219,Data Stewards,218,ADV
+220,Data Domains,217|218,ADV
+221,Data Matching,130|217,ADV
+222,Schema Matching,221,ADV
+223,Data Mapping,221|222,ADV
+224,Inventory Management,43|19|20,ADV
+225,Alternate Suppliers,224|20,ADV
+226,Supply Chain Disruption,224|225,ADV
+227,Transportation Networks,61|224,ADV
+228,Bitemporal Graphs,67|68|19|20,TIME
+229,Real World Time,228|67,TIME
+230,System Time,228|67,TIME
+231,Tradeoff Analysis,1|26,AIML
+232,Graph Training,1|18,AIML
+233,Graph Performance,1|26|24,AIML
+234,Transactional Integrity,1|26,AIML
+235,Scalability,233|234,AIML
+236,Sustainability,1|235,AIML
+237,Graph Storytelling,1|76,AIML
+238,Model Expansion,1|231,AIML
+239,Complex Adaptive Systems,1|206,AIML
+240,Edge of Chaos,239,AIML
+241,Model Complexity,238|231,AIML
+242,Cost-Benefit Analysis,231|241,AIML
+243,Initial Project Costs,242,AIML
+244,Ongoing Project Costs,242|243,AIML
+245,Network Effects,1|20|244,AIML
+246,Brain Architecture,1,AIML
+247,1000 Brains Theory,246,AIML
+248,Cortical Columns,247,AIML
+249,Grid Cells,248|52,AIML
+250,Place Cells,248|249,AIML
+251,Multiple Representations,247|248,AIML
+252,Voting Mechanisms,247|251,AIML
+253,Sensory-Motor Networks,247|248,AIML
+254,Reference Frames,249|250|251,AIML
+255,Monty Framework,247|254,AIML
+256,Graph AI Future,1|18|255,AIML
+257,World Models,2|246|254,AIML
+258,AI and Graph Future,256|257,AIML
+259,Graph Query Language,17|19|20,FOUND

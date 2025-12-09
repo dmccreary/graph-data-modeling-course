@@ -13,32 +13,38 @@ nav:
   - Chapters:
     - Table of Contents: chapters/index.md
     - chapters/01-introduction/index.md
-    - chapters/02-concepts/index.md
+    - chapters/02-graph-fundamentals/index.md
     - chapters/03-modeling-customers/index.md
     - chapters/04-modeling-products/index.md
     - chapters/05-modeling-space/index.md
     - chapters/06-modeling-time/index.md
-    - chapters/07-modeling-concepts/index.md
+    - chapters/07-knowledge-graphs/index.md
     - chapters/08-modeling-language/index.md
-    - chapters/09-modeling-fraud/index.md
-    - chapters/10-modeling-healthcare/index.md
+    - chapters/09-fraud-detection/index.md
+    - chapters/10-healthcare-modeling/index.md
     - chapters/11-entity-resolution/index.md
     - chapters/12-digital-twins/index.md
-    - chapters/13-modeling-scenes/index.md
+    - chapters/13-scene-graphs/index.md
     - chapters/14-modeling-rules/index.md
     - chapters/15-modeling-code/index.md
-    - chapters/16-modeling-security-threats/index.md
-    - chapters/17-modeling-processes/index.md
-    - chapters/18-modeling-learning/index.md
-    - chapters/19-modeling-causality/index.md
-    - chapters/20-modeling-linage/index.md
+    - chapters/16-security-threats/index.md
+    - chapters/17-process-events/index.md
+    - chapters/18-learning-systems/index.md
+    - chapters/19-causality/index.md
+    - chapters/20-lineage-provenance/index.md
     - chapters/21-metadata-modeling/index.md
-    - chapters/22-modeling-supply-chains/index.md
-    - chapters/23-bitemporal-modeling/index.md
-    - chapters/24-advanced-topics/index.md
-    - chapters/25-model-evolution/index.md
-    - chapters/26-brain/index.md
-    - chapters/27-ai-futures/index.md
+    - chapters/22-supply-chains/index.md
+    - chapters/23-bitemporal/index.md
+    - chapters/24-model-evolution/index.md
+    - chapters/25-brain-architecture/index.md
+    - chapters/26-ai-futures/index.md
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+    - Course Description Assessment: learning-graph/course-description-assessment.md
+    - Concept List: learning-graph/concept-list.md
+    - Concept Taxonomy: learning-graph/concept-taxonomy.md
+    - Graph Quality Analysis: learning-graph/quality-metrics.md
+    - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
   - Prompts:
     - prompts/index.md
     - prompts/01-course-description.md
@@ -49,6 +55,7 @@ nav:
     - prompts/06-glossary.md
   - Sims:
     - List of Sims: sims/index.md
+    - Graph Viewer: sims/graph-viewer/index.md
     - Learning Graph: sims/learning-graph/index.md
     - Customer Graph: sims/customer-graph/index.md
     - Templates: sims/templates/index.md
