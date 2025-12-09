@@ -1,0 +1,307 @@
+/* Customer Entity Types MicroSim Stylesheet
+ * ==========================================
+ *
+ * Color Scheme:
+ * - Individual: Blue (#4A90D9)
+ * - Household: Green (#7CB342)
+ * - Corporate: Orange (#FF9800)
+ * - Organization: Purple (#9C27B0)
+ */
+
+/* ===========================================
+   RESET & BASE STYLES
+   =========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+/* ===========================================
+   MAIN CONTAINER & NETWORK CANVAS
+   =========================================== */
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#network {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f7fa;
+}
+
+/* ===========================================
+   TITLE (Top Center)
+   =========================================== */
+.title {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    background-color: rgba(245, 247, 250, 0.95);
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 10;
+}
+
+/* ===========================================
+   LEGEND (Upper Left)
+   =========================================== */
+.legend {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 12px 14px;
+    background-color: rgba(255, 255, 255, 0.98);
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+    z-index: 10;
+}
+
+.legend-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 6px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+    font-size: 12px;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border: 2px solid #333;
+}
+
+/* Entity type specific colors and shapes */
+.color-individual {
+    background-color: #4A90D9;
+    border-radius: 50%;
+}
+
+.color-household {
+    background-color: #7CB342;
+    border-radius: 6px;
+}
+
+.color-corporate {
+    background-color: #FF9800;
+    border-radius: 0;
+}
+
+.color-organization {
+    background-color: #9C27B0;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* ===========================================
+   RIGHT PANEL
+   =========================================== */
+.right-panel {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 10;
+}
+
+/* ===========================================
+   INFO PANEL
+   =========================================== */
+.info-panel {
+    background-color: rgba(255, 255, 255, 0.98);
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+.info-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.info-text {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* ===========================================
+   STATUS INFO PANEL (Entity Details)
+   =========================================== */
+.status-info {
+    background-color: rgba(255, 255, 255, 0.98);
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+    border-left: 4px solid #4A90D9;
+    transition: border-color 0.3s ease;
+}
+
+.status-info.individual { border-left-color: #4A90D9; }
+.status-info.household { border-left-color: #7CB342; }
+.status-info.corporate { border-left-color: #FF9800; }
+.status-info.organization { border-left-color: #9C27B0; }
+
+.status-title {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.status-text {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.property-list {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.property-item {
+    font-size: 11px;
+    color: #666;
+    margin: 4px 0;
+    padding-left: 10px;
+    border-left: 2px solid #ddd;
+}
+
+.property-item strong {
+    color: #333;
+}
+
+/* ===========================================
+   RELATIONSHIPS PANEL
+   =========================================== */
+.relationships-panel {
+    background-color: rgba(255, 255, 255, 0.98);
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+.relationship-item {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+    padding: 6px 8px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}
+
+.rel-label {
+    font-size: 11px;
+    font-weight: bold;
+    color: #4A90D9;
+    font-family: 'Courier New', monospace;
+}
+
+.rel-desc {
+    font-size: 11px;
+    color: #666;
+    margin-top: 2px;
+}
+
+/* ===========================================
+   RESPONSIVE STYLES
+   =========================================== */
+@media (max-width: 768px) {
+    .title {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .legend {
+        padding: 8px 10px;
+    }
+
+    .legend-title {
+        font-size: 12px;
+    }
+
+    .legend-item {
+        font-size: 10px;
+    }
+
+    .legend-color {
+        width: 16px;
+        height: 16px;
+    }
+
+    .right-panel {
+        width: 220px;
+    }
+
+    .info-title,
+    .status-title {
+        font-size: 12px;
+    }
+
+    .info-text,
+    .status-text {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 500px) {
+    .right-panel {
+        position: relative;
+        width: 100%;
+        top: auto;
+        right: auto;
+        padding: 10px;
+    }
+
+    .legend {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: 10px;
+    }
+
+    .title {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .container {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    #network {
+        height: 400px;
+    }
+}

@@ -5,6 +5,7 @@
         "FHIR",
         "Geospatial",
         "Hotspots",
-        "SKOS"
+        "SKOS",
+        "touchpoints"
     ]
 }

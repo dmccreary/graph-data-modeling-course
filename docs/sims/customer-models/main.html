@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Entity Types</title>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="network"></div>
+
+        <!-- Title at top center -->
+        <div class="title">Customer Entity Types in Graph Data Models</div>
+
+        <!-- Legend in upper left -->
+        <div class="legend">
+            <div class="legend-title">Entity Types</div>
+            <div class="legend-item">
+                <div class="legend-color color-individual"></div>
+                <span><strong>Individual</strong> - Single person</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color color-household"></div>
+                <span><strong>Household</strong> - Family unit</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color color-corporate"></div>
+                <span><strong>Corporate</strong> - Business entity</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color color-organization"></div>
+                <span><strong>Organization</strong> - Non-profit/Gov</span>
+            </div>
+        </div>
+
+        <!-- Right panel with info -->
+        <div class="right-panel">
+            <div class="info-panel">
+                <div class="info-title">Understanding Customer Entities</div>
+                <div class="info-text">
+                    In graph data modeling, "customer" can represent different entity types
+                    depending on business context. Click on any node to learn more about
+                    that entity type.
+                </div>
+            </div>
+
+            <div class="status-info" id="status-info">
+                <div class="status-title">Selected Entity:</div>
+                <div class="status-text" id="status-text">
+                    Click on a node to see its properties and business context.
+                </div>
+            </div>
+
+            <div class="relationships-panel">
+                <div class="info-title">Relationship Types</div>
+                <div class="relationship-item">
+                    <span class="rel-label">MEMBER_OF</span>
+                    <span class="rel-desc">Individual belongs to Household</span>
+                </div>
+                <div class="relationship-item">
+                    <span class="rel-label">EMPLOYED_BY</span>
+                    <span class="rel-desc">Individual works for Corporate</span>
+                </div>
+                <div class="relationship-item">
+                    <span class="rel-label">AFFILIATED_WITH</span>
+                    <span class="rel-desc">Individual connected to Organization</span>
+                </div>
+                <div class="relationship-item">
+                    <span class="rel-label">SUBSIDIARY_OF</span>
+                    <span class="rel-desc">Corporate owned by Corporate</span>
+                </div>
+                <div class="relationship-item">
+                    <span class="rel-label">PARTNERED_WITH</span>
+                    <span class="rel-desc">Organizations collaborate</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="customer-models.js"></script>
+</body>
+</html>

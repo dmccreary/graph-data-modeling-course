@@ -1,0 +1,55 @@
+{
+  "title": "Customer Entity Types",
+  "description": "Interactive visualization showing the different types of entities that can represent customers in a graph data model (Individual, Household, Corporate, Organization) and their relationships",
+  "creator": "Graph Data Modeling Course",
+  "created": "2025-12-09",
+  "modified": "2025-12-09",
+  "subject": [
+    "Graph Data Modeling",
+    "Customer Data",
+    "Entity Types",
+    "Data Architecture"
+  ],
+  "type": "InteractiveResource",
+  "format": "text/html",
+  "language": "en",
+  "audience": "College undergraduate",
+  "educationLevel": "Undergraduate",
+  "learningResourceType": "Interactive Visualization",
+  "interactivityType": "active",
+  "bloomsLevel": "Understand",
+  "prerequisites": [
+    "Basic understanding of graph databases",
+    "Familiarity with nodes and relationships"
+  ],
+  "learningObjectives": [
+    "Identify the four main customer entity types",
+    "Distinguish between entity types based on properties",
+    "Explain relationships connecting customer entities",
+    "Recognize when to use each entity type"
+  ],
+  "keywords": [
+    "customer modeling",
+    "individual customer",
+    "household",
+    "corporate customer",
+    "organization",
+    "B2B",
+    "B2C",
+    "entity types",
+    "graph schema"
+  ],
+  "technology": {
+    "library": "vis-network",
+    "version": "9.x",
+    "cdn": "https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+  },
+  "files": {
+    "main": "main.html",
+    "styles": "style.css",
+    "script": "customer-models.js",
+    "documentation": "index.md"
+  },
+  "license": "MIT",
+  "rights": "Free for educational use"
+}
