@@ -4,6 +4,8 @@ This interactive visualization demonstrates the different types of entities that
 
 ## About This MicroSim
 
+<iframe src="./main.html" width="100%" height="600px" scrolling="no"></iframe>
+
 In graph data modeling for business applications, the concept of a "customer" isn't always straightforward. Depending on your business context, a customer might be:
 
 - **An Individual** - A single person (B2C scenarios)
@@ -13,7 +15,6 @@ In graph data modeling for business applications, the concept of a "customer" is
 
 Understanding these entity types and their relationships is fundamental to designing effective customer data models.
 
-<iframe src="./main.html" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
 ## Learning Objectives
 
